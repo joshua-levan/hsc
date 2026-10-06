@@ -4,11 +4,26 @@ nav {
     position: fixed;
     width: 100%;
     background-color: $cool-gray;
-    transition: height 0.2s ease-in-out;
+    transition: all 0.2s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     &.full {
-        height: 100px;
+        img{
+        height: 2.5rem;
+        transition: height 0.2s ease-out;
+    }
     }
     &.condensed {
-        height: 50px;
+        height: 1rem;
+        img{
+        height: 1rem;
+        transition: height 0.2s ease-out;
+    }
+    }
+    ul{
+        li{
+            display: inline-block;
+        }
     }
 }

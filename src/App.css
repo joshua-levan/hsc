@@ -57,8 +57,12 @@ table {
 
 html {
   font-size: clamp(1rem, 0.205rem + 2.121vw, 2.75rem);
-  box-sizing: border-box;
   scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 p {
@@ -80,9 +84,13 @@ h1 {
   color: #53656D;
 }
 
-h2 {
+h2, li a {
   font-family: "Averia Sans Libre", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #162126;
+}
+
+nav, section {
+  padding: 1rem 2rem;
 }/*# sourceMappingURL=App.css.map */

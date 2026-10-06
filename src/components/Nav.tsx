@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Nav.css'
+import hscLogo from '../assets/hscLogo.svg'
 
 const Nav = () => {
 const [navStatus, setNavStatus] = useState<string>('full')
@@ -21,7 +22,13 @@ useEffect(() => {
 }, [])
 
   return (
-    <nav className={navStatus}>Nav</nav>
+    <nav className={navStatus}>
+        <img src={hscLogo} alt="HSC Logo" />
+        <ul>
+            <li>ABout</li>
+        </ul>
+        <button>hi</button>
+    </nav>
   )
 }
 

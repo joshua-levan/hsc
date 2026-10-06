@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <Nav />
-      <div style={{ height: '200vw', width: '100vw' }}></div>
+      <div style={{ height: '200vh', width: '100vw' }}></div>
     </>
   )
 }
