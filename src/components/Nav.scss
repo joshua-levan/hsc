@@ -1,0 +1,14 @@
+@import '../variables.scss';
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: $cool-gray;
+    transition: height 0.2s ease-in-out;
+    &.full {
+        height: 100px;
+    }
+    &.condensed {
+        height: 50px;
+    }
+}

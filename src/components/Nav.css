@@ -1,0 +1,12 @@
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #DCE5E9;
+  transition: height 0.2s ease-in-out;
+}
+nav.full {
+  height: 100px;
+}
+nav.condensed {
+  height: 50px;
+}/*# sourceMappingURL=Nav.css.map */

@@ -58,6 +58,7 @@ table {
 html {
   font-size: clamp(1rem, 0.205rem + 2.121vw, 2.75rem);
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 p {

@@ -1,8 +1,12 @@
 import './App.css'
+import Nav from './components/Nav'
 
 const App = () => {
   return (
-    <p><span>Hello</span> World</p>
+    <>
+      <Nav />
+      <div style={{ height: '200vw', width: '100vw' }}></div>
+    </>
   )
 }
 
