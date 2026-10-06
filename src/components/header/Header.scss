@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+header{
+        background-color: $red;
+        width: 100%;
+        padding-top: 5rem;
+    section{
+        position: relative;
+        height: 20rem;
+        img{
+            height: 15rem;
+            position: absolute;
+            top: -1rem;
+            right: 0rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+header {
+  background-color: #FF3300;
+  width: 100%;
+  padding-top: 5rem;
+}
+header section {
+  position: relative;
+  height: 20rem;
+}
+header section img {
+  height: 15rem;
+  position: absolute;
+  top: -1rem;
+  right: 0rem;
+}/*# sourceMappingURL=Header.css.map */

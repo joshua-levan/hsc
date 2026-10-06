@@ -22,7 +22,7 @@ time, mark, audio, video {
   color: #162126;
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -56,7 +56,7 @@ table {
 }
 
 html {
-  font-size: clamp(1rem, 0.205rem + 2.121vw, 2.75rem);
+  font-size: clamp(1rem, -0.25rem + 3.333vw, 2.75rem);
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
@@ -68,12 +68,12 @@ html {
 p {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   color: #162126;
 }
 p span {
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
 }
 

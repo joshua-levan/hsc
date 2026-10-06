@@ -1,37 +1,57 @@
 nav {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
   width: 100%;
+}
+nav .top-bar {
+  background: linear-gradient(to right, #FF3300, #162126);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  color: white;
+  padding: 0.25rem;
+}
+nav .top-bar a {
+  color: white;
+  font-weight: 600;
+  margin-left: 0.25rem;
+}
+nav.condensed .top-bar {
+  display: none;
+}
+nav .navbar {
+  padding: 0 2rem;
   background-color: #DCE5E9;
   transition: all 0.2s ease-out;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-nav ul {
+nav .navbar ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 50%;
 }
-nav ul li {
+nav .navbar ul li {
   display: inline-block;
+  font-size: 0.5rem;
 }
-nav.full {
-  height: 5rem;
+nav .navbar.full {
+  height: 4rem;
 }
-nav.full img {
-  height: 2.5rem;
+nav .navbar.full img {
+  height: 2rem;
   transition: height 0.2s ease-out;
 }
-nav.full ul li {
-  font-size: 0.65rem;
-}
-nav.condensed {
+nav .navbar.condensed {
   padding: 0.25rem 2rem;
+  transition: all 0.5s ease-out;
 }
-nav.condensed img {
+nav .navbar.condensed img {
   height: 1rem;
   transition: height 0.2s ease-out;
-}
-nav.condensed ul li {
-  font-size: 0.5rem;
 }/*# sourceMappingURL=Nav.css.map */
