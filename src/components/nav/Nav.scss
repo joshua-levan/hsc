@@ -11,7 +11,7 @@ nav {
     ul{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     ul li{
@@ -19,15 +19,13 @@ nav {
     }
 
     &.full {
+        height: 5rem;
         img{
             height: 2.5rem;
             transition: height 0.2s ease-out;
         }
-        ul {
-            width: 60%;
-        }
         ul li{
-            font-size: 0.75rem;
+            font-size: 0.65rem;
         }
     }
 
@@ -36,9 +34,6 @@ nav {
         img{
             height: 1rem;
             transition: height 0.2s ease-out;
-        }
-        ul {
-            width: 50%;
         } 
         ul li{
             font-size: 0.5rem;

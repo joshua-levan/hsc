@@ -10,20 +10,20 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav ul li {
   display: inline-block;
+}
+nav.full {
+  height: 5rem;
 }
 nav.full img {
   height: 2.5rem;
   transition: height 0.2s ease-out;
 }
-nav.full ul {
-  width: 60%;
-}
 nav.full ul li {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 nav.condensed {
   padding: 0.25rem 2rem;
@@ -31,9 +31,6 @@ nav.condensed {
 nav.condensed img {
   height: 1rem;
   transition: height 0.2s ease-out;
-}
-nav.condensed ul {
-  width: 50%;
 }
 nav.condensed ul li {
   font-size: 0.5rem;
