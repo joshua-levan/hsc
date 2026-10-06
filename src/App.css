@@ -82,13 +82,15 @@ h1 {
   font-weight: 400;
   font-style: normal;
   color: #53656D;
+  text-transform: uppercase;
 }
 
-h2, li a {
+h2, li a, button {
   font-family: "Averia Sans Libre", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #162126;
+  text-transform: uppercase;
 }
 
 nav, section {

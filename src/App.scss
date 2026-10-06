@@ -78,13 +78,15 @@ h1 {
     font-weight: 400;
     font-style: normal;
     color: $dark-gray;
+    text-transform: uppercase;
 }
 
-h2, li a {
+h2, li a, button {
     font-family: "Averia Sans Libre", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: $black;
+    text-transform: uppercase;
 }
 
 nav, section {

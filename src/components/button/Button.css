@@ -1,0 +1,28 @@
+button {
+  font-family: 1.25rem;
+  padding: 0.5rem;
+  min-width: 2rem;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.black-button {
+  border: solid 2px #C5C5C5;
+  background-color: #162126;
+  color: white;
+}
+.black-button:hover {
+  background-color: black;
+}
+
+.red-button {
+  border: solid 2px #DC0000;
+  background-color: #FF3300;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+.red-button:hover {
+  background-color: #DC0000;
+}/*# sourceMappingURL=Button.css.map */

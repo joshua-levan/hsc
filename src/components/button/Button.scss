@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+button {
+    font-family: 1.25rem;
+    padding: 0.5rem;
+    min-width: 2rem;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.black-button{
+    border: solid 2px $border-gray;
+    background-color: $black;
+    color: white;
+    &:hover {
+        background-color: black;
+    }
+}
+
+.red-button{
+    border: solid 2px $border-red;
+    background-color: $red;
+    color: white;
+    transition: all 0.3s ease-out;
+    &:hover {
+        background-color: $border-red;
+    }
+}

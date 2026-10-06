@@ -7,17 +7,34 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+}
 nav.full img {
   height: 2.5rem;
   transition: height 0.2s ease-out;
 }
+nav.full ul {
+  width: 60%;
+}
+nav.full ul li {
+  font-size: 0.75rem;
+}
 nav.condensed {
-  height: 1rem;
+  padding: 0.25rem 2rem;
 }
 nav.condensed img {
   height: 1rem;
   transition: height 0.2s ease-out;
 }
-nav ul li {
-  display: inline-block;
+nav.condensed ul {
+  width: 50%;
+}
+nav.condensed ul li {
+  font-size: 0.5rem;
 }/*# sourceMappingURL=Nav.css.map */
