@@ -1,12 +1,12 @@
 @import '../../variables.scss';
 
 header{
-        background-color: $red;
+    background-color: $light-gray;
         width: 100%;
         padding-top: 5rem;
     section{
         position: relative;
-        height: 20rem;
+        height: 16rem;
         img{
             height: 15rem;
             position: absolute;

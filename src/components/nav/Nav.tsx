@@ -1,12 +1,27 @@
+import { useState, useEffect } from 'react'
 import './Nav.css'
 import hscLogo from '../../assets/hscLogo.svg'
 import Button from '../button/Button'
 
-interface Prop {
-  navStatus: string
-}
+const Nav = () => {
+  const [navStatus, setNavStatus] = useState<string>('full')
 
-const Nav = ({ navStatus }:Prop) => {
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setNavStatus('condensed')
+      } else {
+        setNavStatus('full')
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+  return () => {
+    window.removeEventListener('scroll', handleScroll)
+  }
+}, [])
+
   return (
     <nav className={navStatus}>
           <div className="top-bar">

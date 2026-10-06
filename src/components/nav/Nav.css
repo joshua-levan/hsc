@@ -54,4 +54,8 @@ nav .navbar.condensed {
 nav .navbar.condensed img {
   height: 1rem;
   transition: height 0.2s ease-out;
+}
+
+nav.condensed {
+  z-index: 100;
 }/*# sourceMappingURL=Nav.css.map */

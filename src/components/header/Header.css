@@ -1,11 +1,11 @@
 header {
-  background-color: #FF3300;
+  background-color: #f6f6f6;
   width: 100%;
   padding-top: 5rem;
 }
 header section {
   position: relative;
-  height: 20rem;
+  height: 16rem;
 }
 header section img {
   height: 15rem;
