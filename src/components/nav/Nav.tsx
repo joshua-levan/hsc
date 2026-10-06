@@ -35,7 +35,7 @@ const Nav = () => {
               <li><a href="#">pricing</a></li>
               <li><a href="#">let's chat</a></li>
           </ul>
-          <Button color={'red'} message={'let\'s make my studio'}/>
+          <Button color={'red'} message={'let\'s make my studio'} navStatus={navStatus}/>
         </div>
     </nav>
   )

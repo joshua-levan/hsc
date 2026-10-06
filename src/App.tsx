@@ -5,9 +5,8 @@ import Nav from './components/nav/Nav'
 const App = () => {
   return (
     <>
-      <Nav navStatus />
-      <Header navStatus />
-      <div style={{ height: '200vh', width: '100vw' }}></div>
+      <Nav />
+      <Header />
     </>
   )
 }

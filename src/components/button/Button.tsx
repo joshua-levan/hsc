@@ -2,12 +2,13 @@ import './Button.css'
 
 interface Button {
     color: string,
-    message: string
+    message: string,
+    navStatus: string
 }
 
-const Button = ({ color, message }: Button) => {
+const Button = ({ color, message, navStatus }: Button) => {
   return (
-    <button className={color === 'red' ? "red-button" : "black-button"}>{message}</button>
+    <button className={color === 'red' ? `red-button ${navStatus && navStatus}` : 'black-button'}>{message}</button>
   )
 }
 

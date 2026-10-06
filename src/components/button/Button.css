@@ -25,4 +25,8 @@ button:hover {
 }
 .red-button:hover {
   background-color: #DC0000;
+}
+
+.red-button.condensed {
+  padding: 0.25rem 0.5rem;
 }/*# sourceMappingURL=Button.css.map */
