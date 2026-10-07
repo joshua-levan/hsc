@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+section{
+    position: relative;
+    height: 20rem;
+    .podcaster-container {
+        overflow: hidden;
+        .podcaster{
+            position: absolute;
+            height: 17rem;
+            left: -2rem;
+            top: -2rem;
+        }
+    }
+}

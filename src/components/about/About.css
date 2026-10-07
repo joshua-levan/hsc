@@ -1,0 +1,13 @@
+section {
+  position: relative;
+  height: 20rem;
+}
+section .podcaster-container {
+  overflow: hidden;
+}
+section .podcaster-container .podcaster {
+  position: absolute;
+  height: 17rem;
+  left: -2rem;
+  top: -2rem;
+}/*# sourceMappingURL=About.css.map */

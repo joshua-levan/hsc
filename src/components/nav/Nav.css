@@ -3,7 +3,6 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 0;
-  width: 100%;
 }
 nav .top-bar {
   background: linear-gradient(to right, #FF3300, #162126);

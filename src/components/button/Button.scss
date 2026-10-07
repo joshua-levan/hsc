@@ -4,6 +4,7 @@ button {
     padding: 0.5rem;
     min-width: 2rem;
     border: none;
+    font-size: 0.75rem;
     &:hover{
         cursor: pointer;
     }
@@ -23,6 +24,7 @@ button {
     background-color: $red;
     color: white;
     transition: all 0.3s ease-out;
+    font-size: 0.5rem;
     &:hover {
         background-color: $border-red;
     }
