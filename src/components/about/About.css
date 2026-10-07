@@ -1,22 +1,37 @@
-section {
+main section {
   position: relative;
   height: 20rem;
+  display: flex;
+  justify-content: end;
 }
-section .podcaster-container {
+main section .podcaster-container {
   overflow: hidden;
 }
-section .podcaster-container .podcaster {
+main section .podcaster-container .podcaster {
   position: absolute;
   height: 17rem;
   left: -2rem;
   top: -2rem;
 }
-section .diorama-container {
+main section .diorama-container {
   overflow: hidden;
 }
-section .diorama-container .diorama {
+main section .diorama-container .diorama {
   position: absolute;
   height: 10rem;
   left: -1.5rem;
   top: 15rem;
+}
+main section .about-cards-container {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+}
+main section .about-cards-container .about-card {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=About.css.map */

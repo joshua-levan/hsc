@@ -1,8 +1,10 @@
 @import '../../variables.scss';
 
-section{
+main section{
     position: relative;
     height: 20rem;
+    display: flex;
+    justify-content: end;
     .podcaster-container {
         overflow: hidden;
         .podcaster{
@@ -20,5 +22,18 @@ section{
             left: -1.5rem;
             top: 15rem;
         }
+    }
+    .about-cards-container {
+        width: 10rem;
+        height: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 2rem;
+        .about-card {
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+    }
     }
 }
