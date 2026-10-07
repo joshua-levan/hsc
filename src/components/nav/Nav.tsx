@@ -28,7 +28,7 @@ const Nav = () => {
             Expert guidance at any stage. Come check out <a href="#about">WHAT WE'RE ALL ABOUT  →</a>
           </div>
           <div className={`navbar ${navStatus}`}>
-            <a href="#">
+            <a href="#top">
               <img src={hscLogo} alt="HSC Logo" />
             </a>
           <ul>

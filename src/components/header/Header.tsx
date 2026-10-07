@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header>
+    <header id="top">
         <section>
             <p>Sans dolor ipsum sans<a href="#">LOREM IPSUM  →</a></p>
             <h2>with HOME STUDIO CONSULTANTS</h2>

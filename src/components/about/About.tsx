@@ -49,17 +49,19 @@ const About = () => {
             <div className="diorama-container">
                 <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
             </div>
-            <h3>ABOUT <span>Home Studio Consultants is here for you! Our consultants have the upmost expertise and service!</span></h3>
-            <a href="#">Explore Our Services  →</a>
-            <div className="about-cards-container">
-                <img className="card-grid" src={cardGrid} alt="" />
-                {aboutCards.map(card=>{
-                    return <div className="about-card" key={card.id}>
-                        <img src={card.icon} alt={`${card.title} icon`} />
-                        <p><span>{card.title} </span>{card.message}</p>
-                    </div>
-                })}
-            </div>
+            <div className="about-container">
+                <h3>ABOUT HOME STUDIO CONSULTANTS<span>  Our trained consultants offer the upmost expertise and service!</span></h3>
+                <p>Sans dolor ipsum sans<a href="#">LOREM IPSUM  →</a></p>
+                <div className="about-cards-container">
+                    <img className="card-grid" src={cardGrid} alt="" />
+                    {aboutCards.map(card=>{
+                        return <div className="about-card" key={card.id}>
+                            <img src={card.icon} alt={`${card.title} icon`} />
+                            <p><span>{card.title} </span>{card.message}</p>
+                        </div>
+                    })}
+                </div>
+            </div>  
         </section>
     </main>
   )

@@ -1,9 +1,10 @@
 main section {
   position: relative;
-  height: 20rem;
+  height: 22rem;
   display: flex;
   justify-content: end;
   background-color: #F1EEEE;
+  padding-top: 2.5rem;
 }
 main section .podcaster-container {
   overflow: hidden;
@@ -23,19 +24,25 @@ main section .diorama-container .diorama {
   left: -1.5rem;
   top: 15rem;
 }
-main section .about-cards-container {
+main section .about-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+main section .about-container .about-cards-container {
   position: relative;
   width: 16rem;
   height: 16rem;
   display: flex;
   flex-wrap: wrap;
 }
-main section .about-cards-container .card-grid {
+main section .about-container .about-cards-container .card-grid {
   position: absolute;
   height: 16rem;
   position: absolute;
 }
-main section .about-cards-container .about-card {
+main section .about-container .about-cards-container .about-card {
   padding: 1.25rem 1rem;
   width: 8rem;
   height: 8rem;
@@ -43,7 +50,7 @@ main section .about-cards-container .about-card {
   flex-direction: column;
   align-items: center;
 }
-main section .about-cards-container .about-card img {
+main section .about-container .about-cards-container .about-card img {
   height: 1.5rem;
   margin-bottom: 0.5rem;
 }/*# sourceMappingURL=About.css.map */
