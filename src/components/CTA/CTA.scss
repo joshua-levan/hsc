@@ -2,8 +2,13 @@
 
 .cta {
     section {
+        padding: 0;
         background-color: $red;
         height: 15rem;
         width: 100%;
+        position: relative;
+        triangle-top {
+            position: absolute;
+        }
     }
 }

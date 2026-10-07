@@ -1,5 +1,10 @@
 .cta section {
+  padding: 0;
   background-color: #FF3300;
   height: 15rem;
   width: 100%;
+  position: relative;
+}
+.cta section triangle-top {
+  position: absolute;
 }/*# sourceMappingURL=CTA.css.map */

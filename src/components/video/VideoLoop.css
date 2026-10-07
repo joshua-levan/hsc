@@ -1,4 +1,10 @@
-video {
+.video-container {
+  position: relative;
+}
+.video-container .triangle-bottom {
+  position: absolute;
+}
+.video-container video {
   width: 100%;
   height: auto;
   display: block;
