@@ -7,9 +7,21 @@ header section {
   position: relative;
   height: 16rem;
 }
-header section img {
+header section img.sparky {
   height: 14rem;
   position: absolute;
   top: -1rem;
   right: 2.5rem;
+}
+header section .seal-container {
+  position: absolute;
+  overflow: hidden;
+  height: 5rem;
+  width: 5rem;
+  right: 0;
+}
+header section .seal-container img.ohio-seal {
+  height: 5rem;
+  position: absolute;
+  right: -0.5rem;
 }/*# sourceMappingURL=Header.css.map */

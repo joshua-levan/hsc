@@ -25,7 +25,7 @@ const Nav = () => {
   return (
     <nav className={navStatus}>
           <div className="top-bar">
-            Dolor san quasi-vini. Dolor ipsum sans dolor ipsum sans <a href="#">LOREM IPSUM  →</a>
+            Expert guidance at any stage. Come check out <a href="#">WHAT WE'RE ALL ABOUT  →</a>
           </div>
           <div className={`navbar ${navStatus}`}>
             <img src={hscLogo} alt="HSC Logo" />

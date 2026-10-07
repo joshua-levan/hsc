@@ -90,6 +90,9 @@ h2, li a, button {
   font-weight: 400;
   font-style: normal;
   color: #162126;
+}
+
+li a, button {
   text-transform: uppercase;
 }
 
