@@ -1,9 +1,15 @@
+main {
+  display: flex;
+  justify-content: center;
+  background-color: #F1EEEE;
+}
+
 main section {
+  max-width: 1440px;
   position: relative;
   height: 22rem;
   display: flex;
   justify-content: end;
-  background-color: #F1EEEE;
   padding-top: 2.5rem;
 }
 main section .podcaster-container {
