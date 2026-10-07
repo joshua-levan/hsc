@@ -2,9 +2,12 @@
 
 header{
     background-color: $light-gray;
-        width: 100%;
-        padding-top: 4rem;
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
     section{
+        max-width: 1440px;
         position: relative;
         height: 13rem;
         display: flex;
@@ -35,14 +38,10 @@ header{
         .seal-container {
             position: absolute;
             overflow: hidden;
-            height: 5rem;
-            width: 5rem;
-            right: 0;
-            top: 4rem;
+            right: 0.5rem;
+            top: 3.35rem;
             img.ohio-seal {
                 height: 5rem;
-                position: absolute;
-                right: -0.5rem
             }
         }
         .make-it-container{
@@ -58,6 +57,17 @@ header{
                 left: -0.5rem;
                 transform: rotate(-5deg);
                 font-size: 2.8rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 1441px) {
+    header {
+        section {
+            .seal-container,
+            .make-it-container {
+                overflow: visible;
             }
         }
     }
