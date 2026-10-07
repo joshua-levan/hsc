@@ -10,7 +10,7 @@ nav {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 0.5rem;
+        font-size: 0.35rem;
         color: white;
         padding: 0.25rem;
         a{
@@ -42,21 +42,21 @@ nav {
 
         ul li{
             display: inline-block;
-            font-size: 0.5rem;
+            font-size: 0.35rem;
         }
 
         &.full {
-            height: 4rem;
-            img{
-                height: 2rem;
+            height: 3rem;
+            a img{
+                height: 1.75rem;
                 transition: height 0.2s ease-out;
             }
         }
 
         &.condensed {
             padding: 0.25rem 2rem;
-            transition: all 0.5s ease-out;
-            img{
+            transition: all 0.2s ease-out;
+            a img{
                 height: 1rem;
                 transition: height 0.2s ease-out;
             } 

@@ -25,12 +25,14 @@ const Nav = () => {
   return (
     <nav className={navStatus}>
           <div className="top-bar">
-            Expert guidance at any stage. Come check out <a href="#">WHAT WE'RE ALL ABOUT  →</a>
+            Expert guidance at any stage. Come check out <a href="#about">WHAT WE'RE ALL ABOUT  →</a>
           </div>
           <div className={`navbar ${navStatus}`}>
-            <img src={hscLogo} alt="HSC Logo" />
+            <a href="#">
+              <img src={hscLogo} alt="HSC Logo" />
+            </a>
           <ul>
-              <li><a href="#">about/ services</a></li>
+              <li><a href="#about">about/ services</a></li>
               <li><a href="#">service area</a></li>
               <li><a href="#">pricing</a></li>
               <li><a href="#">let's chat</a></li>

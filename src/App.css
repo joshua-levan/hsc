@@ -63,6 +63,7 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -75,7 +76,7 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #162126;
-  font-size: 0.5rem;
+  font-size: 0.35rem;
   line-height: 0.6rem;
 }
 p span {

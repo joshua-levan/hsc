@@ -17,7 +17,7 @@ const About = () => {
             id: crypto.randomUUID(),
             icon: microphoneIcon,
             title: 'Capture',
-            message: 'Vinyl • Instruments • Turntables • Synth • Tape • Microphones • Preamps • Interfaces • DI Boxes'
+            message: 'Vinyl • Instruments • Turntables • Synthesizers • Tape • Microphones • Preamps • Interfaces • DI Boxes • and More!'
         },
         {
             id: crypto.randomUUID(),
@@ -29,19 +29,19 @@ const About = () => {
             id: crypto.randomUUID(),
             icon: microphoneIcon,
             title: 'LISTEN',
-            message: 'Studio Monitors • Headphones • Room Acoustics • Calibration'
+            message: 'Studio Monitors • Headphones • Room Acoustics • Calibration • Set-Up'
         },
         {
             id: crypto.randomUUID(),
             icon: microphoneIcon,
             title: 'CREATE',
-            message: 'Content • Music Tracks • Albums • Podcasts • Voiceovers • Archives • Everything Else!'
+            message: 'Content Creation • Audio Tracks • Albums • Podcasts • Voiceovers • Deployment • Archives • and Everything Else!'
         },
     ]
 
 
   return (
-    <main>
+    <main id="about">
         <section>
             <div className="podcaster-container">
                 <img className="podcaster" src={podcaster} alt="Podcaster in a home studio illustration" />
@@ -49,13 +49,14 @@ const About = () => {
             <div className="diorama-container">
                 <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
             </div>
+            <h3>ABOUT <span>Home Studio Consultants is here for you! Our consultants have the upmost expertise and service!</span></h3>
+            <a href="#">Explore Our Services  →</a>
             <div className="about-cards-container">
                 <img className="card-grid" src={cardGrid} alt="" />
                 {aboutCards.map(card=>{
                     return <div className="about-card" key={card.id}>
                         <img src={card.icon} alt={`${card.title} icon`} />
-                        <h3>{card.title}</h3>
-                        <p>{card.message}</p>
+                        <p><span>{card.title} </span>{card.message}</p>
                     </div>
                 })}
             </div>

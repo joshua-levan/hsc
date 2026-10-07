@@ -9,7 +9,7 @@ nav .top-bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.5rem;
+  font-size: 0.35rem;
   color: white;
   padding: 0.25rem;
 }
@@ -37,20 +37,20 @@ nav .navbar ul {
 }
 nav .navbar ul li {
   display: inline-block;
-  font-size: 0.5rem;
+  font-size: 0.35rem;
 }
 nav .navbar.full {
-  height: 4rem;
+  height: 3rem;
 }
-nav .navbar.full img {
-  height: 2rem;
+nav .navbar.full a img {
+  height: 1.75rem;
   transition: height 0.2s ease-out;
 }
 nav .navbar.condensed {
   padding: 0.25rem 2rem;
-  transition: all 0.5s ease-out;
+  transition: all 0.2s ease-out;
 }
-nav .navbar.condensed img {
+nav .navbar.condensed a img {
   height: 1rem;
   transition: height 0.2s ease-out;
 }
