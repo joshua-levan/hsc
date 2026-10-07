@@ -65,6 +65,10 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  cursor: pointer;
+}
+
 p {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;

@@ -12,4 +12,13 @@ section{
             top: -2rem;
         }
     }
+    .diorama-container{
+        overflow: hidden;
+        .diorama{
+            position: absolute;
+            height: 10rem;
+            left: -1.5rem;
+            top: 15rem;
+        }
+    }
 }

@@ -10,4 +10,13 @@ section .podcaster-container .podcaster {
   height: 17rem;
   left: -2rem;
   top: -2rem;
+}
+section .diorama-container {
+  overflow: hidden;
+}
+section .diorama-container .diorama {
+  position: absolute;
+  height: 10rem;
+  left: -1.5rem;
+  top: 15rem;
 }/*# sourceMappingURL=About.css.map */
