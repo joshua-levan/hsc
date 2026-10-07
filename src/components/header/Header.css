@@ -6,6 +6,24 @@ header {
 header section {
   position: relative;
   height: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header section p {
+  position: absolute;
+  left: 4rem;
+}
+header section p a {
+  color: #FF3300;
+}
+header section h2 {
+  position: absolute;
+  left: 4rem;
+  top: 8rem;
+}
+header section button {
+  margin-top: 9rem;
 }
 header section img.sparky {
   height: 14rem;
@@ -19,9 +37,25 @@ header section .seal-container {
   height: 5rem;
   width: 5rem;
   right: 0;
+  top: 3rem;
 }
 header section .seal-container img.ohio-seal {
   height: 5rem;
   position: absolute;
   right: -0.5rem;
+}
+header section .make-it-container {
+  position: absolute;
+  overflow: hidden;
+  height: 60%;
+  width: 100%;
+  left: 0;
+  top: 1rem;
+}
+header section .make-it-container h1 {
+  position: absolute;
+  top: 1rem;
+  left: -0.5rem;
+  transform: rotate(-5deg);
+  font-size: 2.8rem;
 }/*# sourceMappingURL=Header.css.map */

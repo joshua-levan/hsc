@@ -71,10 +71,16 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #162126;
+  font-size: 0.5rem;
 }
 p span {
   font-weight: 600;
   text-transform: uppercase;
+}
+p a {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 0.25rem;
 }
 
 h1 {
