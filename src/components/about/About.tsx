@@ -1,6 +1,9 @@
 import podcaster from '../../assets/podcaster_diorama_gray.png'
 import diorama from '../../assets/studio_diorama_gray.png'
 import microphoneIcon from '../../assets/microphone-icon.svg'
+import softwareIcon from '../../assets/software-icon.svg'
+import listenIcon from '../../assets/listen-icon.svg'
+import rockIcon from '../../assets/rock-icon.svg'
 import cardGrid from '../../assets/card-grid.svg'
 import './About.css'    
 
@@ -21,19 +24,19 @@ const About = () => {
         },
         {
             id: crypto.randomUUID(),
-            icon: microphoneIcon,
+            icon: softwareIcon,
             title: 'Process',
             message: 'Mixers • Patching • Routing • Monitoring • DAWs • Plugins • EQ • Compression • Effects • Hardware • Software'
         },
         {
             id: crypto.randomUUID(),
-            icon: microphoneIcon,
+            icon: listenIcon,
             title: 'LISTEN',
             message: 'Studio Monitors • Headphones • Room Acoustics • Calibration • Set-Up'
         },
         {
             id: crypto.randomUUID(),
-            icon: microphoneIcon,
+            icon: rockIcon,
             title: 'CREATE',
             message: 'Content Creation • Audio Tracks • Albums • Podcasts • Voiceovers • Deployment • Archives • and Everything Else!'
         },

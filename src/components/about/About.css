@@ -30,6 +30,9 @@ main section .about-container {
   display: flex;
   flex-direction: column;
 }
+main section .about-container h3 {
+  max-width: 16rem;
+}
 main section .about-container .about-cards-container {
   position: relative;
   width: 16rem;
