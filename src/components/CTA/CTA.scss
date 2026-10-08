@@ -25,6 +25,8 @@
         max-width: 1650px;
         position: relative;
         margin: 0 auto;
+        display: flex;
+        justify-content: end;
         h1 {
             position: absolute;
             font-size: 3rem;
@@ -36,6 +38,33 @@
             position: absolute;
             right: 1rem;
             top: 6.25rem;
+        }
+        .cta-container {
+            margin-top: 5rem;
+            width: 100%;
+            max-width: 1545px;
+            display: flex;
+            justify-content: space-between;
+            z-index: 35;
+            .cta-copy-container {
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+                h3 {
+                    color:white;
+                    font-size: 1.25rem;
+                    line-height: 1.25rem;
+                    margin-bottom: 1.25rem;
+                }
+                .cta-copy {
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+            }
+            .photos-container {
+                display: flex;
+                flex-direction: column;
+            }
         }
     }
 }
