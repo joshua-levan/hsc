@@ -19,4 +19,9 @@
   transform: rotate(10deg);
   right: 0.25rem;
   top: -3.5rem;
+}
+.cta section h2 {
+  position: absolute;
+  right: 1rem;
+  top: 1.75rem;
 }/*# sourceMappingURL=CTA.css.map */
