@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: center;
     section{
-        max-width: 1440px;
+        max-width: 1650px;
         position: relative;
         height: 13rem;
         display: flex;
@@ -38,7 +38,7 @@ header{
         .seal-container {
             position: absolute;
             overflow: hidden;
-            right: 0.5rem;
+            right: -0.5rem;
             top: 3.35rem;
             img.ohio-seal {
                 height: 5rem;
