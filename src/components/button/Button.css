@@ -8,7 +8,45 @@ button {
 button:hover {
   cursor: pointer;
 }
+button:active {
+  transform: scale(0.97);
+}
+button::before, button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+button::before {
+  background-image: radial-gradient(circle, #fff 2px, transparent 3px), radial-gradient(circle, #fff 1px, transparent 2px), radial-gradient(circle, #fff 2px, transparent 3px), radial-gradient(circle, #fff 1px, transparent 2px), radial-gradient(circle, #fff 2px, transparent 3px);
+  background-size: 8px 8px, 6px 6px, 8px 8px, 6px 6px, 8px 8px;
+  background-position: 50% 50%;
+}
+button::after {
+  background-image: radial-gradient(circle, #fff 1px, transparent 2px), radial-gradient(circle, #fff 2px, transparent 3px), radial-gradient(circle, #fff 1px, transparent 2px), radial-gradient(circle, #fff 2px, transparent 3px);
+  background-size: 6px 6px, 8px 8px, 6px 6px, 8px 8px;
+  background-position: 50% 50%;
+}
+button:active::before {
+  animation: sparkle-burst 150ms ease-out;
+}
+button:active::after {
+  animation: sparkle-burst 187ms ease-out;
+}
 
+@keyframes sparkle-burst {
+  0% {
+    opacity: 1;
+    background-position: 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+  }
+  100% {
+    opacity: 0;
+    background-position: 10% -80%, 90% -40%, 0% 20%, 100% 40%, 50% 120%;
+  }
+}
 .black-button {
   border: solid 2px #C5C5C5;
   background-color: #162126;
