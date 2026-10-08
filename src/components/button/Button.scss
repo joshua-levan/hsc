@@ -71,8 +71,9 @@ button {
     border: solid 2px $border-gray;
     background-color: $black;
     color: white;
+    transition: all 0.3s ease-out;
     &:hover {
-        background-color: black;
+        background-color: $hover-black;
     }
 }
 

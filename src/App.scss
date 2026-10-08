@@ -83,6 +83,10 @@ p {
         text-transform: uppercase;
         font-weight: 600;
         margin-left: 0.25rem;
+        transition: 0.2s ease-out;
+        &:hover {
+                letter-spacing: 0.025rem;
+            }
     }
 }
 

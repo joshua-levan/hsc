@@ -88,6 +88,10 @@ p a {
   text-transform: uppercase;
   font-weight: 600;
   margin-left: 0.25rem;
+  transition: 0.2s ease-out;
+}
+p a:hover {
+  letter-spacing: 0.025rem;
 }
 
 h1 {
