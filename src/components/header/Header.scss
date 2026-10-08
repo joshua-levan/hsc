@@ -35,40 +35,23 @@ header{
             top: -0.65rem;
             right: 2.5rem;
         }
-        .seal-container {
+        img.ohio-seal {
             position: absolute;
-            overflow: hidden;
             right: -0.5rem;
             top: 3.35rem;
-            img.ohio-seal {
-                height: 5rem;
+            height: 5rem;
             }
-        }
-        .make-it-container{
+        h1 {
             position: absolute;
-            overflow: hidden;
             height: 60%;
             width: 100%;
             left: 0;
             top: 0.25rem;
-            h1 {
-                position: absolute;
-                top: 1rem;
-                left: -0.5rem;
-                transform: rotate(-5deg);
-                font-size: 2.8rem;
-            }
-        }
-    }
-}
-
-@media (min-width: 1441px) {
-    header {
-        section {
-            .seal-container,
-            .make-it-container {
-                overflow: visible;
-            }
+            position: absolute;
+            top: 1rem;
+            left: -0.5rem;
+            transform: rotate(-5deg);
+            font-size: 2.8rem;
         }
     }
 }

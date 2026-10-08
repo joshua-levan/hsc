@@ -46,12 +46,8 @@ const About = () => {
   return (
     <main id="about">
         <section>
-            <div className="podcaster-container">
-                <img className="podcaster" src={podcaster} alt="Podcaster in a home studio illustration" />
-            </div>
-            <div className="diorama-container">
-                <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
-            </div>
+            <img className="podcaster" src={podcaster} alt="Podcaster in a home studio illustration" />
+            <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
             <div className="about-container">
                 <h3>ABOUT <span>  Home Studio Consultants helps home audio professionals and enthusiasts get off the couch, out of the box, and into creating. Through expert consulting, training, and hands-on guidance, we make the gear and software less intimidating and the creative process more productive.</span></h3>
                 <p>Ready?<a href="#">LET'S GET STARTED  →</a></p>

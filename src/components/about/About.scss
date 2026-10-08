@@ -7,27 +7,24 @@ main{
 main section{
     max-width: 1440px;
     position: relative;
-    height: 22rem;
+    height: 23rem;
     display: flex;
     justify-content: end;
     padding-top: 2.5rem;
-    .podcaster-container {
-        overflow: hidden;
-        .podcaster{
-            position: absolute;
-            height: 17rem;
-            left: -2rem;
-            top: -2rem;
+    .podcaster{
+        position: absolute;
+        height: 17rem;
+        left: -2rem;
+        top: -2rem;
         }
-    }
-    .diorama-container{
-        overflow: hidden;
+    .diorama{
         z-index: 90;
-        .diorama{
-            position: absolute;
-            height: 12rem;
-            left: -1.5rem;
-            top: 15rem;
+        position: absolute;
+        height: 12rem;
+        left: -2rem;
+        top: 15rem;
+        @media (min-width: 1441px) {
+            left: -4rem;
         }
     }
     .about-container {
@@ -44,6 +41,7 @@ main section{
         height: 16rem;
         display: flex;
         flex-wrap: wrap;
+        z-index: 90;
         .card-grid {
             position: absolute;
             height: 16rem;
