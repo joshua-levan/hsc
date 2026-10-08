@@ -7,4 +7,11 @@
 }
 .cta section triangle-top {
   position: absolute;
+}
+.cta section h1 {
+  position: absolute;
+  font-size: 3rem;
+  transform: rotate(10deg);
+  right: 0.225rem;
+  top: 0;
 }/*# sourceMappingURL=CTA.css.map */
