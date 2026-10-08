@@ -52,7 +52,7 @@ const About = () => {
                 <h3>COUCH to CREATOR <span>  Home Studio Consultants helps home audio professionals and enthusiasts get off the couch, out of the box, and into creating. Through expert consulting, training, and hands-on guidance, we make your gear and software less intimidating and your creative process more productive.</span></h3>
                 <p>Ready?<a href="#">LET'S GET STARTED  →</a></p>
                 <div className="about-cards-container">
-                    <img className="card-grid" src={cardGrid} alt="" />
+                    <img className="card-grid" src={cardGrid} alt="Grid lines" />
                     {aboutCards.map(card=>{
                         return <div className="about-card" key={card.id}>
                             <img src={card.icon} alt={`${card.title} icon`} />

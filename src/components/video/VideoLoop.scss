@@ -1,7 +1,23 @@
+@import '../../variables.scss';
+
 .video-container {  
     position: relative;
     .triangle-bottom {
         position: absolute;
+    }
+    section {
+        position: absolute;
+        max-width: 1440px;
+        z-index: 80;
+        .service-area {
+            background-color: $black;
+            padding: 1rem;
+            width: 14rem;
+            height: 3px;
+            h3 {
+                color: $light-gray;
+            }
+        }
     }
   video {
     width: 100%;

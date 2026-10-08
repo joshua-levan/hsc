@@ -4,6 +4,20 @@
 .video-container .triangle-bottom {
   position: absolute;
 }
+.video-container section {
+  position: absolute;
+  max-width: 1440px;
+  z-index: 80;
+}
+.video-container section .service-area {
+  background-color: #162126;
+  padding: 1rem;
+  width: 14rem;
+  height: 3px;
+}
+.video-container section .service-area h3 {
+  color: #f6f6f6;
+}
 .video-container video {
   width: 100%;
   height: auto;

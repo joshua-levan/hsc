@@ -33,7 +33,7 @@ const Nav = () => {
             </a>
           <ul>
               <li><a href="#about">about/ services</a></li>
-              <li><a href="#">service area</a></li>
+              <li><a href="#service-area">service area</a></li>
               <li><a href="#">pricing</a></li>
               <li><a href="#">let's chat</a></li>
           </ul>
