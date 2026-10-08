@@ -7,7 +7,7 @@ main {
 main section {
   max-width: 1440px;
   position: relative;
-  height: 23rem;
+  height: 24rem;
   display: flex;
   justify-content: end;
   padding-top: 2.5rem;
@@ -38,6 +38,7 @@ main section .about-container {
 }
 main section .about-container h3 {
   max-width: 16rem;
+  margin-bottom: 1rem;
 }
 main section .about-container .about-cards-container {
   position: relative;
@@ -49,8 +50,9 @@ main section .about-container .about-cards-container {
 }
 main section .about-container .about-cards-container .card-grid {
   position: absolute;
-  height: 16rem;
-  position: absolute;
+  height: 12rem;
+  top: 2rem;
+  left: 2rem;
 }
 main section .about-container .about-cards-container .about-card {
   padding: 1.25rem 1rem;

@@ -104,9 +104,10 @@ h2, h3, li a, button {
 h3 {
     font-size: 0.75rem;
     margin-bottom: 0.5rem;
-    line-height: 0.65rem;
+    line-height: 0.75rem;
     span {
         color: $dark-gray;
+    font-family: "Averia Sans Libre", sans-serif;
         font-size: 0.5rem;
     }
 }
