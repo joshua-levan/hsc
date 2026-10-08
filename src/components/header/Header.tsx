@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header id="top">
         <section>
-            <p>Sans dolor ipsum sans<a href="#">LOREM IPSUM  →</a></p>
+            <p>See our<a href="#about">LIST OF SERVICES  →</a></p>
             <h2>with HOME STUDIO CONSULTANTS</h2>
             <Button color="black" message="unleash the beast" navStatus={""}/>
             <img className="sparky" src={sparky} alt="Sparky the Friendly Sasquatch" />

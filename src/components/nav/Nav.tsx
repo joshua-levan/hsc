@@ -25,7 +25,7 @@ const Nav = () => {
   return (
     <nav className={navStatus}>
           <div className="top-bar">
-            Expert guidance at any stage. Come check out <a href="#about">WHAT WE'RE ALL ABOUT  →</a>
+            Home Studio Consultants offer expert guidance at any stage. Check out <a href="#about">WHAT WE'RE ALL ABOUT  →</a>
           </div>
           <div className={`navbar ${navStatus}`}>
             <a href="#top">
