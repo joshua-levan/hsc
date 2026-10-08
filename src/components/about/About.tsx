@@ -53,8 +53,8 @@ const About = () => {
                 <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
             </div>
             <div className="about-container">
-                <h3>ABOUT HOME STUDIO CONSULTANTS<span>  Our trained consultants offer the upmost expertise and service!</span></h3>
-                <p>Sans dolor ipsum sans<a href="#">LOREM IPSUM  →</a></p>
+                <h3>ABOUT <span>  Home Studio Consultants helps home audio professionals and enthusiasts get off the couch, out of the box, and into creating. Through expert consulting, training, and hands-on guidance, we make the gear and software less intimidating and the creative process more productive.</span></h3>
+                <p>Ready?<a href="#">LET'S GET STARTED  →</a></p>
                 <div className="about-cards-container">
                     <img className="card-grid" src={cardGrid} alt="" />
                     {aboutCards.map(card=>{
