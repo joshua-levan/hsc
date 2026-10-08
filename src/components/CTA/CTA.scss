@@ -1,21 +1,24 @@
 @import '../../variables.scss';
 
 .cta {
+    padding: 0;
+    background-color: $red;
+    height: 15rem;
+    width: 100%;
+    position: relative;
+    triangle-top {
+        position: absolute;
+    }
     section {
-        padding: 0;
-        background-color: $red;
-        height: 15rem;
-        width: 100%;
+        max-width: 1440px;
         position: relative;
-        triangle-top {
-            position: absolute;
-        }
+        margin: 0 auto;
         h1 {
             position: absolute;
             font-size: 3rem;
             transform: rotate(10deg);
-            right: 0.225rem;
-            top: 0;
+            right:0.25rem;
+            top: -3.5rem;
         }
     }
 }

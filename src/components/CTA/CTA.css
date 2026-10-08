@@ -1,17 +1,22 @@
-.cta section {
+.cta {
   padding: 0;
   background-color: #FF3300;
   height: 15rem;
   width: 100%;
   position: relative;
 }
-.cta section triangle-top {
+.cta triangle-top {
   position: absolute;
+}
+.cta section {
+  max-width: 1440px;
+  position: relative;
+  margin: 0 auto;
 }
 .cta section h1 {
   position: absolute;
   font-size: 3rem;
   transform: rotate(10deg);
-  right: 0.225rem;
-  top: 0;
+  right: 0.25rem;
+  top: -3.5rem;
 }/*# sourceMappingURL=CTA.css.map */
