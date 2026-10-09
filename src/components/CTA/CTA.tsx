@@ -1,6 +1,7 @@
 import './CTA.css'
 import topTriangle from'../../assets/top-triangle.svg'
 import djBackdrop from '../../assets/dj-backdrop.svg'
+import photos from '../../assets/photos.png'
 
 const CTA = () => {
   return (
@@ -19,9 +20,7 @@ Whether you've got a room full of vintage hardware, a laptop and one good microp
 Less guessing. Less gear shuffling. More recording.</p>
                 <p>What are you waiting for?<a href="#">REACH YOUR GOAL <span>→</span></a></p>
               </div>
-              <div className="photos-container">
-              
-              </div>
+              <img className='photos' src={photos} alt="stack of photos dipicting audio software and podcasters" />
             </div>
         </section>
     </div>
