@@ -19,7 +19,7 @@ header section p {
   top: 0.25rem;
   z-index: 50;
 }
-header section p a {
+header section p a, header section p a span {
   color: #FF3300;
 }
 header section h2 {

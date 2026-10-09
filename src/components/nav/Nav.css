@@ -17,6 +17,17 @@ nav .top-bar a {
   color: white;
   font-weight: 600;
   margin-left: 0.25rem;
+  position: relative;
+}
+nav .top-bar a span {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  margin-left: 0.125rem;
+  transition: all 0.1s ease-in-out;
+}
+nav .top-bar a:hover span {
+  margin-left: 0.3rem;
 }
 nav.condensed .top-bar {
   display: none;

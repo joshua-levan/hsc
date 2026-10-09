@@ -9,14 +9,19 @@
   max-width: 1440px;
   z-index: 80;
 }
-.video-container section .service-area {
+.video-container section h3 {
   background-color: #162126;
   padding: 1rem;
-  width: 14rem;
-  height: 3px;
+  width: 18rem;
+  color: white;
+  line-height: 1.25rem;
+  box-shadow: 0.3rem 0.3rem 0 #000;
 }
-.video-container section .service-area h3 {
+.video-container section h3 span {
   color: #f6f6f6;
+}
+.video-container section h3 span span {
+  color: white;
 }
 .video-container video {
   width: 100%;

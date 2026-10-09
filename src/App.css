@@ -77,7 +77,7 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #162126;
-  font-size: 0.35rem;
+  font-size: 0.4rem;
   line-height: 0.6rem;
 }
 p span {
@@ -88,10 +88,16 @@ p a {
   text-transform: uppercase;
   font-weight: 600;
   margin-left: 0.25rem;
-  transition: 0.2s ease-out;
+  position: relative;
 }
-p a:hover {
-  letter-spacing: 0.025rem;
+p a span {
+  position: absolute;
+  font-weight: 600;
+  margin-left: 0.125rem;
+  transition: all 0.1s ease-in-out;
+}
+p a:hover span {
+  margin-left: 0.3rem;
 }
 
 h1 {

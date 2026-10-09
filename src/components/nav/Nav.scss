@@ -17,6 +17,19 @@ nav {
             color: white;
             font-weight: 600;
             margin-left: 0.25rem;
+            position: relative;
+            span {
+                position: absolute;
+                color: white;
+                font-weight: 600;
+                margin-left: 0.125rem;
+                transition: all 0.1s ease-in-out;
+            }
+            &:hover {
+                span {
+                    margin-left: 0.3rem;
+                }
+            }
         }
     }
 

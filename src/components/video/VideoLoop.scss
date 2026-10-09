@@ -9,13 +9,18 @@
         position: absolute;
         max-width: 1440px;
         z-index: 80;
-        .service-area {
+        h3 {
             background-color: $black;
             padding: 1rem;
-            width: 14rem;
-            height: 3px;
-            h3 {
+            width: 18rem;
+            color: white;
+            line-height: 1.25rem;
+            box-shadow: 0.3rem 0.3rem 0 #000;
+            span {
                 color: $light-gray;
+                span {
+                    color: white;
+                }
             }
         }
     }
