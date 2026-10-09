@@ -1,30 +1,56 @@
 .video-container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  max-height: 16.5rem;
+  overflow: hidden;
 }
 .video-container .triangle-bottom {
   position: absolute;
+  z-index: 24;
 }
 .video-container section {
-  position: absolute;
+  position: relative;
+  width: 100%;
   max-width: 1440px;
   z-index: 80;
+  display: flex;
+  justify-content: space-between;
 }
-.video-container section h3 {
-  background-color: #162126;
-  padding: 1rem;
+.video-container section .service-area-copy {
   width: 18rem;
+}
+.video-container section .service-area-copy h3 {
+  background-color: #162126;
+  border: solid 2px #DCE5E9;
+  padding: 1rem;
   color: white;
   line-height: 1.25rem;
   box-shadow: 0.3rem 0.3rem 0 #000;
 }
-.video-container section h3 span {
-  color: #f6f6f6;
+.video-container section .service-area-copy h3 span {
+  color: #DCE5E9;
 }
-.video-container section h3 span span {
-  color: white;
+.video-container section .service-area-copy p {
+  margin-top: 3rem;
+  width: 12rem;
+}
+.video-container section .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.video-container section .button-container button {
+  margin-top: 5rem;
 }
 .video-container video {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   display: block;
 }/*# sourceMappingURL=VideoLoop.css.map */

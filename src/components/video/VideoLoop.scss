@@ -2,31 +2,55 @@
 
 .video-container {  
     position: relative;
+    display: flex;
+    justify-content: center;
+    max-height: 16.5rem;
+    overflow: hidden;
     .triangle-bottom {
         position: absolute;
+        z-index: 24;
     }
     section {
-        position: absolute;
+        position: relative;
+        width: 100%;
         max-width: 1440px;
         z-index: 80;
-        h3 {
-            background-color: $black;
-            padding: 1rem;
-            width: 18rem;
-            color: white;
-            line-height: 1.25rem;
-            box-shadow: 0.3rem 0.3rem 0 #000;
-            span {
-                color: $light-gray;
+        display: flex;
+        justify-content: space-between;
+        .service-area-copy{
+                width: 18rem;
+            h3 {
+                background-color: $black;
+                border: solid 2px $cool-gray;
+                padding: 1rem;
+                color: white;
+                line-height: 1.25rem;
+                box-shadow: 0.3rem 0.3rem 0 #000;
                 span {
-                    color: white;
+                    color: $cool-gray;
                 }
+            }
+            p {
+                margin-top: 3rem;
+                width: 12rem;
+            }
+        }
+        .button-container{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            button {
+                margin-top: 5rem;
             }
         }
     }
   video {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     display: block;
     }
 }
