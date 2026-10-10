@@ -4,6 +4,7 @@ header {
   padding-top: 4rem;
   display: flex;
   justify-content: center;
+  overflow-y: hidden;
 }
 header section {
   max-width: 1650px;

@@ -14,7 +14,7 @@ const App = () => {
       <About />
       <CTA />
       <VideoLoop />
-      <Pricing />
+      <Pricing /> {/*// contact form in pricing*/}
     </>
   )
 }

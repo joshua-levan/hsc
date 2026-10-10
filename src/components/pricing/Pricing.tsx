@@ -19,7 +19,7 @@ const Pricing = () => {
             id: crypto.randomUUID(),
             icon: oneHour,
             title: 'Per Hour',
-            copy: '',
+            copy: 'Base rate for on-site consultation.* Perfect for that quick fix',
             price: '50',
             className: 'per-hour'
         },
@@ -27,7 +27,7 @@ const Pricing = () => {
             id: crypto.randomUUID(),
             icon: halfDay,
             title: 'Half Day',
-            copy: '',
+            copy: 'Up to 4 hours of on-site consultation*',
             price: '190',
             className: 'half-day'
         },
@@ -35,7 +35,7 @@ const Pricing = () => {
             id: crypto.randomUUID(),
             icon: fullDay,
             title: 'Full Day',
-            copy: '',
+            copy: 'Up to 8 hours of on-site consultation*',
             price: '370',
             className: 'full-day'
         },
@@ -43,7 +43,7 @@ const Pricing = () => {
             id: crypto.randomUUID(),
             icon: bigProject,
             title: 'Got a Big Project?',
-            copy: '',
+            copy: 'Let\'s chat below! We offer custom solutions',
             price: 'empty',
             className: 'big-project'
         }
