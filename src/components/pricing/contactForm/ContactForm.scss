@@ -3,4 +3,16 @@
 form {
     padding: 1rem;
     background-color: $light-gray;
+    display: flex;
+    flex-direction: column;
+    label {
+        font-size: 0.75rem;
+    }
+    input {
+        margin: 0.25rem;
+        height: 1rem;
+    }
+    textarea {
+        height: 5rem;
+    }
 }

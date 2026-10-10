@@ -5,6 +5,7 @@ import fullDay from '../../assets/full-day.svg'
 import bigProject from '../../assets/big-project.svg'
 import Button from '../button/Button'
 import ContactForm from './contactForm/ContactForm'
+import remote from '../../assets/remote.svg'
 
 const Pricing = () => {
     interface PriceCard {
@@ -67,6 +68,9 @@ const Pricing = () => {
                         </div>
                     )
                 })}
+            </div>
+            <div className="remote-card">
+                <img src={remote} alt="remote icon" />
             </div>
         </section>
         <section className='button-section'>

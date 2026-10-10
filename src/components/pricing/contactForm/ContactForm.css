@@ -1,4 +1,16 @@
 form {
   padding: 1rem;
   background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  font-size: 0.75rem;
+}
+form input {
+  margin: 0.25rem;
+  height: 1rem;
+}
+form textarea {
+  height: 5rem;
 }/*# sourceMappingURL=ContactForm.css.map */
