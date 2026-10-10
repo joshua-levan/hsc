@@ -3,6 +3,8 @@ import oneHour from '../../assets/one-hour.svg'
 import halfDay from '../../assets/half-day.svg'
 import fullDay from '../../assets/full-day.svg'
 import bigProject from '../../assets/big-project.svg'
+import Button from '../button/Button'
+import ContactForm from './contactForm/ContactForm'
 
 const Pricing = () => {
     interface PriceCard {
@@ -51,7 +53,7 @@ const Pricing = () => {
 
   return (
     <div className="pricing" id="pricing">
-        <section>
+        <section className='pricing-section'>
             <div className="cards-container">
                 {pricingCards.map(card => {
                     return (
@@ -66,6 +68,15 @@ const Pricing = () => {
                     )
                 })}
             </div>
+        </section>
+        <section className='button-section'>
+            <Button color="black" message="Are you ready? Let's do this!" navStatus=''/>
+        </section>
+        <section className='contact-form' id="contact">
+            <div className="contact-header">
+                <h3>Contact us<span> Let's set up an appointment! No question is too small.</span></h3>
+            </div>
+            <ContactForm />
         </section>
     </div>
   )

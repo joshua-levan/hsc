@@ -35,7 +35,7 @@ const Nav = () => {
               <li><a href="#about">about/ services</a></li>
               <li><a href="#service-area">service area</a></li>
               <li><a href="#pricing">pricing</a></li>
-              <li><a href="#">let's chat</a></li>
+              <li><a href="#contact">let's chat</a></li>
           </ul>
           <Button color={'red'} message={'let\'s make my studio'} navStatus={navStatus}/>
         </div>

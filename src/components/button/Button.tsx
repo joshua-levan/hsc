@@ -8,7 +8,9 @@ interface Button {
 
 const Button = ({ color, message, navStatus }: Button) => {
   return (
-    <button className={color === 'red' ? `red-button ${navStatus && navStatus}` : 'black-button'}>{message}</button>
+    <a href="#contact">
+      <button className={color === 'red' ? `red-button ${navStatus && navStatus}` : 'black-button'}>{message}</button>
+    </a>
   )
 }
 
