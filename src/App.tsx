@@ -3,6 +3,7 @@ import About from './components/about/About'
 import CTA from './components/CTA/CTA'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
+import Pricing from './components/pricing/Pricing'
 import VideoLoop from './components/video/VideoLoop'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <CTA />
       <VideoLoop />
+      <Pricing />
     </>
   )
 }
