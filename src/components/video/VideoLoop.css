@@ -9,6 +9,12 @@
   position: absolute;
   z-index: 24;
 }
+.video-container .location-icon {
+  position: absolute;
+  z-index: 90;
+  height: 2rem;
+  top: 8rem;
+}
 .video-container section {
   position: relative;
   width: 100%;

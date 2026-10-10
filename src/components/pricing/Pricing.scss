@@ -1,1 +1,10 @@
-@import '../../variables.scss'
+@import '../../variables.scss';
+
+.pricing {
+    padding-top: 4rem;
+    background-image: url('../../assets/topography.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $black;
+}

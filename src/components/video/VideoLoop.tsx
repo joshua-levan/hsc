@@ -1,6 +1,6 @@
 import './VideoLoop.css'
 import bottomTriangle from '../../assets/bottom-triangle.svg'
-
+import location from '../../assets/location.svg'
 import videoLoop from '../../assets/hsc-480p.mp4'
 import Button from '../button/Button';
 
@@ -8,6 +8,7 @@ const VideoLoop: React.FC = () => {
   return (
     <div className="video-container"  id="service-area">
       <img className="triangle-bottom" src={bottomTriangle} alt="decorative triangle" />
+      <img className='location-icon' src={location} alt="location icon" />
       <section>
         <div className="service-area-copy">
           <h3>EXPERT HELP, WHEREVER YOU ARE <span>  Home Studio Consultants provides on-site consulting throughout Northeast Ohio* and remote support for studios anywhere in the world. Whether you need hands-on setup, software training, or help troubleshooting your gear, we're here to get you back to creating.<span><br/>**Available Monday-Friday, 9 AM-5 PM Eastern Time.</span></span></h3>

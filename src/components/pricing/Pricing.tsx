@@ -2,7 +2,11 @@ import './Pricing.css'
 
 const Pricing = () => {
   return (
-    <div>Pricing</div>
+    <div className="pricing" id="pricing">
+        <section>
+
+        </section>
+    </div>
   )
 }
 

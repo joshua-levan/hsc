@@ -10,6 +10,12 @@
         position: absolute;
         z-index: 24;
     }
+    .location-icon {
+        position: absolute;
+        z-index: 90;
+        height: 2rem;
+        top: 8rem;
+    }
     section {
         position: relative;
         width: 100%;
