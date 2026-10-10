@@ -5,14 +5,28 @@ form {
     background-color: $light-gray;
     display: flex;
     flex-direction: column;
+    .name, .email {
+        display: flex;
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+    }
     label {
         font-size: 0.75rem;
     }
     input {
         margin: 0.25rem;
+        margin-left: 0;
         height: 1rem;
+        width: 10rem;
+
+    }
+    .email input {
+        width: 13.5rem;
     }
     textarea {
         height: 5rem;
+        margin-top: 0.252rem;
     }
 }

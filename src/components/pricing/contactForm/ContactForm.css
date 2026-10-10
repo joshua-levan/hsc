@@ -4,13 +4,26 @@ form {
   display: flex;
   flex-direction: column;
 }
+form .name, form .email {
+  display: flex;
+}
+form .name div, form .email div {
+  display: flex;
+  flex-direction: column;
+}
 form label {
   font-size: 0.75rem;
 }
 form input {
   margin: 0.25rem;
+  margin-left: 0;
   height: 1rem;
+  width: 10rem;
+}
+form .email input {
+  width: 13.5rem;
 }
 form textarea {
   height: 5rem;
+  margin-top: 0.252rem;
 }/*# sourceMappingURL=ContactForm.css.map */
