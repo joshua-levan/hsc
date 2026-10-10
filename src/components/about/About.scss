@@ -1,4 +1,9 @@
 @import '../../variables.scss';
+
+#about {
+    scroll-margin-top: 1rem;
+}
+
 main{
     display: flex;
     justify-content: center;

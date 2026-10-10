@@ -1,5 +1,9 @@
 @import '../../variables.scss';
 
+#service-area {
+    scroll-margin-top: 2rem;
+}
+
 .video-container {  
     position: relative;
     display: flex;
@@ -10,12 +14,6 @@
         position: absolute;
         z-index: 24;
     }
-    .location-icon {
-        position: absolute;
-        z-index: 90;
-        height: 2rem;
-        top: 8rem;
-    }
     section {
         position: relative;
         width: 100%;
@@ -23,21 +21,29 @@
         z-index: 80;
         display: flex;
         justify-content: space-between;
-        .service-area-copy{
+        .service-area-copy {
                 width: 18rem;
-            h3 {
+            .service-area {
                 background-color: $black;
                 border: solid 2px $cool-gray;
                 padding: 1rem;
-                color: white;
-                line-height: 1.25rem;
                 box-shadow: 0.3rem 0.3rem 0 #000;
-                span {
-                    color: $cool-gray;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                    .location-icon {
+                        height: 2rem;
+                        margin-bottom: 1rem;
+                    }
+                    h3 {
+                    color: white;
+                    span {
+                        color: $cool-gray;
+                    }
                 }
             }
             p {
-                margin-top: 3rem;
+                margin-top: 1rem;
                 width: 12rem;
             }
         }

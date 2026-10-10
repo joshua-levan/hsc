@@ -1,3 +1,7 @@
+#service-area {
+  scroll-margin-top: 2rem;
+}
+
 .video-container {
   position: relative;
   display: flex;
@@ -8,12 +12,6 @@
 .video-container .triangle-bottom {
   position: absolute;
   z-index: 24;
-}
-.video-container .location-icon {
-  position: absolute;
-  z-index: 90;
-  height: 2rem;
-  top: 8rem;
 }
 .video-container section {
   position: relative;
@@ -26,19 +24,27 @@
 .video-container section .service-area-copy {
   width: 18rem;
 }
-.video-container section .service-area-copy h3 {
+.video-container section .service-area-copy .service-area {
   background-color: #162126;
   border: solid 2px #DCE5E9;
   padding: 1rem;
-  color: white;
-  line-height: 1.25rem;
   box-shadow: 0.3rem 0.3rem 0 #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.video-container section .service-area-copy h3 span {
+.video-container section .service-area-copy .service-area .location-icon {
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+.video-container section .service-area-copy .service-area h3 {
+  color: white;
+}
+.video-container section .service-area-copy .service-area h3 span {
   color: #DCE5E9;
 }
 .video-container section .service-area-copy p {
-  margin-top: 3rem;
+  margin-top: 1rem;
   width: 12rem;
 }
 .video-container section .button-container {
