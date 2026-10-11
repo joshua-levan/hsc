@@ -81,9 +81,12 @@
 }
 .pricing .contact-form .contact-header {
   background-color: #FEB19E;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
+}
+.pricing .contact-form .contact-header h3 {
+  margin: 0;
 }
 .pricing .contact-form .contact-header .phone-number {
   color: #162126;
