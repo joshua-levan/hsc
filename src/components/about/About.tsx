@@ -45,7 +45,7 @@ const About = () => {
 
   return (
     <main id="about">
-        <section>
+        <section aria-labelledby="services-heading">
             <img className="podcaster" src={podcaster} alt="Podcaster in a home studio illustration" />
             <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
             <div className="about-container">

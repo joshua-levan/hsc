@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/about/About'
 import CTA from './components/CTA/CTA'
+import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import Pricing from './components/pricing/Pricing'
@@ -15,6 +16,7 @@ const App = () => {
       <CTA />
       <VideoLoop />
       <Pricing /> {/*// contact form in pricing*/}
+      <Footer />
     </>
   )
 }

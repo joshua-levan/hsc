@@ -23,13 +23,13 @@ const Nav = () => {
 }, [])
 
   return (
-    <nav className={navStatus}>
+    <nav className={navStatus} aria-label="Main navigation">
           <div className="top-bar">
             Home Studio Consultants offer expert guidance at any stage. Check out <a href="#about">WHAT WE'RE ALL ABOUT <span>→</span></a>
           </div>
           <div className={`navbar ${navStatus}`}>
-            <a href="#top">
-              <img src={hscLogo} alt="HSC Logo" />
+            <a href="#top" aria-label="Home Studio Consultants home">
+              <img src={hscLogo} alt="Home Studio Consultants" />
             </a>
           <ul>
               <li><a href="#about">about/ services</a></li>

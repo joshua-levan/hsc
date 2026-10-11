@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header id="top">
+    <header id="top" aria-labelledby="welcome-heading">
         <section>
             <p>See our<a href="#about">LIST OF SERVICES <span>→</span></a></p>
             <h2>with HOME STUDIO CONSULTANTS</h2>

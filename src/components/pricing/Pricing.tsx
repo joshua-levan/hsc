@@ -53,7 +53,7 @@ const Pricing = () => {
     ]
 
   return (
-    <div className="pricing" id="pricing">
+    <div className="pricing" id="pricing" aria-labelledby="pricing-heading">
         <section className='pricing-section'>
             <div className="cards-container">
                 {pricingCards.map(card => {
@@ -81,7 +81,7 @@ const Pricing = () => {
         <section className='button-section'>
             <Button color="black" message="Are you ready? Let's do this!" navStatus=''/>
         </section>
-        <section className='contact-form' id="contact">
+        <section className='contact-form' id="contact" aria-labelledby="contact-form-heading">
             <div className="contact-header">
                 <h3>Contact us<span> Chat or book an appointment. Call, text, or send a message below → <a className="phone-number" href="tel:3305551234">
     (330) 555-1234

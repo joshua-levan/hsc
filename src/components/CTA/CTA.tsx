@@ -5,7 +5,7 @@ import photos from '../../assets/photos.png'
 
 const CTA = () => {
   return (
-    <div className="cta">
+    <div className="cta" aria-labelledby="services-continued">
             <img className="triangle-top" src={topTriangle} alt="decorative triangle" />
             <img  className="dj-backdrop" src={djBackdrop} alt="" />
         <section>
