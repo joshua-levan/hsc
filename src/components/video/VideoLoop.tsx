@@ -7,7 +7,7 @@ import Button from '../button/Button';
 const VideoLoop: React.FC = () => {
   return (
     <div className="video-container"  id="service-area">
-      <img className="triangle-bottom" src={bottomTriangle} alt="decorative triangle" />
+      <img className="triangle-bottom" src={bottomTriangle} alt="" />
       <section aria-labelledby="service-area">
         <div className="service-area-copy">
           <div className="service-area">

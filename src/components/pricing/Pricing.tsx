@@ -9,7 +9,7 @@ import remote from '../../assets/remote.svg'
 
 const Pricing = () => {
     interface PriceCard {
-        id: string,
+        id: number,
         icon: string,
         title: string,
         copy: string,
@@ -19,7 +19,7 @@ const Pricing = () => {
 
     const pricingCards: PriceCard[] = [
         {
-            id: crypto.randomUUID(),
+            id: 5,
             icon: oneHour,
             title: 'Per Hour',
             copy: 'Base rate for on-site consultation.* Perfect for that quick fix',
@@ -27,7 +27,7 @@ const Pricing = () => {
             className: 'per-hour'
         },
         {
-            id: crypto.randomUUID(),
+            id: 6,
             icon: halfDay,
             title: 'Half Day',
             copy: 'Up to 4 hours of on-site consultation*',
@@ -35,7 +35,7 @@ const Pricing = () => {
             className: 'half-day'
         },
         {
-            id: crypto.randomUUID(),
+            id: 7,
             icon: fullDay,
             title: 'Full Day',
             copy: 'Up to 8 hours of on-site consultation*',
@@ -43,7 +43,7 @@ const Pricing = () => {
             className: 'full-day'
         },
         {
-            id: crypto.randomUUID(),
+            id: 8,
             icon: bigProject,
             title: 'Got a Big Project?',
             copy: 'Let\'s chat below! We offer custom solutions',
@@ -59,7 +59,7 @@ const Pricing = () => {
                 {pricingCards.map(card => {
                     return (
                         <div className={`${card.className} card`} key={card.id}>
-                            <img src={card.icon} alt={`${card.title} Icon`} />
+                            <img src={card.icon} alt="" />
                             <div className="copy-container">
                                 <h3>{card.title}</h3>
                                 <p>{card.copy}</p>
