@@ -26,4 +26,19 @@ form .email input {
 form textarea {
   height: 5rem;
   margin-top: 0.252rem;
+}
+form input:focus,
+form textarea:focus {
+  outline-color: #FEB19E;
+  border-color: #FEB19E;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: end;
+}
+.submit-container .form-submit {
+  background-color: #FEB19E;
+  margin-top: 0.25rem;
+  width: 25%;
 }/*# sourceMappingURL=ContactForm.css.map */

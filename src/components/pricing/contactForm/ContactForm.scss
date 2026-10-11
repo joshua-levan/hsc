@@ -29,4 +29,21 @@ form {
         height: 5rem;
         margin-top: 0.252rem;
     }
+    input,
+    textarea {
+        &:focus {
+            outline-color: $pink;
+            border-color: $pink;
+        }
+}
+}
+
+.submit-container {
+    display: flex;
+    justify-content: end;
+    .form-submit {
+    background-color: $pink;
+    margin-top: 0.25rem;
+    width: 25%;
+}
 }
