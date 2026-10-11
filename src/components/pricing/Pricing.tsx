@@ -71,6 +71,11 @@ const Pricing = () => {
             </div>
             <div className="remote-card">
                 <img src={remote} alt="remote icon" />
+                <div className="copy-container">
+                    <h3>Remote Consults</h3>
+                    <p>Receive a consult remotely from literally anywhere!</p>
+                </div>
+                <h2>$45/ hr</h2>
             </div>
         </section>
         <section className='button-section'>
@@ -78,7 +83,9 @@ const Pricing = () => {
         </section>
         <section className='contact-form' id="contact">
             <div className="contact-header">
-                <h3>Contact us<span> Let's set up an appointment! No question is too small.</span></h3>
+                <h3>Contact us<span> Chat or book an appointment. Call, text, or send a message below → <a className="phone-number" href="tel:3305551234">
+    (330) 555-1234
+</a></span></h3>
             </div>
             <ContactForm />
         </section>
