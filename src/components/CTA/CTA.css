@@ -24,7 +24,7 @@
   justify-content: end;
   padding: 0;
 }
-.cta section h1 {
+.cta section h4 {
   position: absolute;
   font-size: 4rem;
   transform: rotate(10deg);

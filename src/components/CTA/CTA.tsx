@@ -5,11 +5,11 @@ import photos from '../../assets/photos.png'
 
 const CTA = () => {
   return (
-    <div className="cta" aria-labelledby="services-continued">
-            <img className="triangle-top" src={topTriangle} alt="decorative triangle" />
+    <div className="cta">
+            <img className="triangle-top" src={topTriangle} alt="" />
             <img  className="dj-backdrop" src={djBackdrop} alt="" />
         <section>
-            <h1>plug<br/>in!</h1>
+            <h4>plug<br/>in!</h4>
             <h2>LET'S MAKE<br/> THE DREAM WORK</h2>
             <div className="cta-container">
               <div className="cta-copy-container">
@@ -18,9 +18,9 @@ const CTA = () => {
 The rest is knowing how to make it all work together.
 Whether you've got a room full of vintage hardware, a laptop and one good microphone, or an absolutely irresponsible amount of audio equipment, we'll help you turn it into a system you actually enjoy using.
 Less guessing. Less gear shuffling. More recording.</p>
-                <p>What are you waiting for?<a href="#">REACH YOUR GOAL <span>→</span></a></p>
+                <p>What are you waiting for?<a href="#contact">REACH YOUR GOAL <span>→</span></a></p>
               </div>
-              <img className='photos' src={photos} alt="stack of photos dipicting audio software and podcasters" />
+              <img className='photos' src={photos} alt="stack of photos depicting audio software and podcasters" />
             </div>
         </section>
     </div>
