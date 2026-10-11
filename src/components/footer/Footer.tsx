@@ -13,7 +13,7 @@ const Footer = () => {
                 <p>University Heights, OH</p>
                 <a href="tel:3305551234">330.555.1234</a>
             </div>
-            <p>© {new Date().getFullYear()} Home Studio Consultants</p>
+            <p>© {new Date().getFullYear()} Home Studio Consultants | A proud suppoter of Papp's Piano Service</p>
         </div>
         <div className='img-container'>
             <img src={rockLogo} alt="HSC alt logo" />
