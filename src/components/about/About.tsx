@@ -22,25 +22,25 @@ const About = () => {
             id: 1,
             icon: microphoneIcon,
             title: 'Capture',
-            message: 'Vinyl • Instruments • Turntables • Synthesizers • Tape • Microphones • Preamps • Interfaces • DI Boxes • and More!'
+            message: 'Microphones, audio interfaces, preamps, and recording signal chains'
         },
         {
             id: 2,
             icon: softwareIcon,
             title: 'Process',
-            message: 'Mixers • Patching • Routing • Monitoring • DAWs • Plugins • EQ • Compression • Effects • Hardware • Software'
+            message: 'DAW setup, plugins, mixing workflows, and audio routing'
         },
         {
             id: 3,
             icon: listenIcon,
             title: 'LISTEN',
-            message: 'Studio Monitors • Headphones • Room Acoustics • Calibration • Set-Up'
+            message: 'Studio monitors, headphones, room acoustics, and calibration'
         },
         {
             id: 4,
             icon: rockIcon,
             title: 'CREATE',
-            message: 'Content Creation • Audio Tracks • Albums • Podcasts • Voiceovers • Deployment • Archives • and Everything Else!'
+            message: 'Podcast production, music recording, voiceovers, and content workflows'
         },
     ]
 
@@ -51,7 +51,7 @@ const About = () => {
             <img className="podcaster" src={podcaster} alt="Podcaster in a home studio illustration" />
             <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
             <div className="about-container">
-                <h3>TRAINING & AUDIO SETUP <span>  Home Studio Consultants helps home audio professionals and enthusiasts get off the couch, out of the box, and into creating. Through expert consulting, training, and hands-on guidance, we make your gear and software less intimidating and your creative process more productive.</span></h3>
+                <h3>TRAINING & AUDIO SETUP <span>  Home Studio Consultants helps home recording enthusiasts, musicians, podcasters, and audio professionals get more from their recording studio equipment and software. Get expert guidance on audio interfaces, studio monitors, digital audio workstations (DAWs), signal routing, room acoustics, and more.</span></h3>
                 <p>Ready?<a href="#contact">LET'S GET STARTED <span>→</span></a></p>
                 <div className="about-cards-container" aria-labelledby="services-heading">
                     <img className="card-grid" src={cardGrid} alt="" />
