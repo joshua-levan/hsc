@@ -54,9 +54,9 @@ main section .about-container .about-cards-container {
 }
 main section .about-container .about-cards-container .card-grid {
   position: absolute;
-  height: 12rem;
-  top: 2rem;
-  left: 2rem;
+  height: 14rem;
+  top: 1rem;
+  left: 1rem;
 }
 main section .about-container .about-cards-container .about-card {
   padding: 1.25rem 1rem;
