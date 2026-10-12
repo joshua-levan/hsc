@@ -1,5 +1,5 @@
-import podcaster from '../../assets/podcaster_diorama_gray.png'
-import diorama from '../../assets/studio_diorama_gray.png'
+import podcaster from '../../assets/podcaster_diorama_gray.webp'
+import diorama from '../../assets/studio_diorama_gray.webp'
 
 import microphoneIcon from '../../assets/microphone-icon.svg'
 import softwareIcon from '../../assets/software-icon.svg'

@@ -1,7 +1,7 @@
 import './CTA.css'
 import topTriangle from'../../assets/top-triangle.svg'
 import djBackdrop from '../../assets/dj-backdrop.svg'
-import photos from '../../assets/photos.png'
+import photos from '../../assets/photos.webp'
 
 const CTA = () => {
   return (

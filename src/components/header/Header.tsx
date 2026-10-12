@@ -1,4 +1,4 @@
-import sparky from '../../assets/sparky3.png'
+import sparky from '../../assets/sparky3.webp'
 import ohioSeal from '../../assets/ohioSeal.svg'
 import Button from '../button/Button'
 import './Header.css'
