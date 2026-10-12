@@ -12,7 +12,7 @@ const VideoLoop: React.FC = () => {
         <div className="service-area-copy">
           <div className="service-area">
             <img className='location-icon' src={location} alt="" />
-            <h3>EXPERT HELP, WHEREVER YOU ARE <span>  Home Studio Consultants provides on-site consulting throughout the Greater Cleveland Area and Northeast Ohio* and remote support for studios anywhere in the world. Whether you need hands-on setup, software training, or help troubleshooting your gear, we're here to get you back to creating.<span><br/>**Available Monday-Friday, 9 AM-5 PM Eastern Time.</span></span></h3>
+            <h3>EXPERT HELP, WHEREVER YOU ARE <span>  Home Studio Consultants provides on-site consulting throughout the Greater Cleveland Area and Northeast Ohio* and remote support anywhere in the world. Whether you need hands-on setup, software training, or help troubleshooting your gear, we're here to get you back to creating.<span><br/>**Available Monday-Friday, 9 AM-5 PM Eastern Time.</span></span></h3>
           </div>
           <p><span>*MILEAGE POLICY </span>Locations outside of Cuyahoga County will incur a one way, $1 per mile charge for on-site services.</p>
         </div>

@@ -23,7 +23,7 @@ const Pricing = () => {
             icon: oneHour,
             title: 'Per Hour',
             copy: 'Base rate for on-site consultation.* Perfect for that quick fix',
-            price: '50',
+            price: '150',
             className: 'per-hour'
         },
         {
@@ -31,7 +31,7 @@ const Pricing = () => {
             icon: halfDay,
             title: 'Half Day',
             copy: 'Up to 4 hours of on-site consultation*',
-            price: '190',
+            price: '400',
             className: 'half-day'
         },
         {
@@ -39,7 +39,7 @@ const Pricing = () => {
             icon: fullDay,
             title: 'Full Day',
             copy: 'Up to 8 hours of on-site consultation*',
-            price: '370',
+            price: '600',
             className: 'full-day'
         },
         {
@@ -75,7 +75,7 @@ const Pricing = () => {
                     <h3>Remote Consults</h3>
                     <p>Receive a consult remotely from literally anywhere!</p>
                 </div>
-                <h2>$45/ hr</h2>
+                <h2>$150/ hr</h2>
             </div>
         </section>
         <section className='button-section'>
@@ -83,8 +83,8 @@ const Pricing = () => {
         </section>
         <section className='contact-form' id="contact">
             <div className="contact-header">
-                <h3>Contact us<span> Chat or book an appointment. Call, text, or send a message below → <a className="phone-number" href="tel:3305551234">
-    (330) 555-1234
+                <h3>Contact us<span> Chat or book an appointment. Call, text, or send a message below → <a className="phone-number" href="tel:6159250495">
+    615.925.0495
 </a></span></h3>
             </div>
             <ContactForm />
