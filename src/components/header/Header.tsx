@@ -10,7 +10,14 @@ const Header = () => {
             <p>See our<a href="#about">LIST OF SERVICES <span>→</span></a></p>
             <h2>with HOME STUDIO CONSULTANTS</h2>
             <Button color="black" message="unleash the beast" navStatus={""}/>
-            <img className="sparky" src={sparky} alt="Sparky the Friendly Sasquatch" />
+            <img
+            className="sparky"
+            src={sparky}
+            alt="Sparky the Friendly Sasquatch"
+            fetchPriority="high"
+            loading="eager"
+            decoding="async"
+            />
             <img className="ohio-seal" src={ohioSeal} alt="Home Studio Consultants Ohio Seal" />
             <h1>make it<br/>happen</h1>
         </section>

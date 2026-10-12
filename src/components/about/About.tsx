@@ -48,7 +48,14 @@ const About = () => {
   return (
     <main id="about">
         <section aria-labelledby="about-heading">
-            <img className="podcaster" src={podcaster} alt="Podcaster in a home studio illustration" />
+            <img
+            className="podcaster"
+            src={podcaster}
+            alt="Podcaster in a home studio illustration"
+            fetchPriority="high"
+            loading="eager"
+            decoding="async"
+            />
             <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
             <div className="about-container">
                 <h3>TRAINING & AUDIO SETUP <span>  Home Studio Consultants helps home recording enthusiasts, musicians, podcasters, and audio professionals get more from their recording studio equipment and software. Get expert guidance on audio interfaces, studio monitors, digital audio workstations (DAWs), signal routing, room acoustics, and more.</span></h3>
