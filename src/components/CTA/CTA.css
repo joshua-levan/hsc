@@ -30,6 +30,7 @@
   transform: rotate(10deg);
   right: 1rem;
   top: 0;
+  z-index: 90;
 }
 .cta section h2 {
   position: absolute;
