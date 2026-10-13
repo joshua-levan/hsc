@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Nav />
       <Header />
-      {/* <About /> */}
+      <About />
       {/* <CTA /> */}
       {/* <VideoLoop /> */}
       {/* <Pricing /> // contact form in pricing */}
