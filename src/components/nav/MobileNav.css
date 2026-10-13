@@ -1,0 +1,16 @@
+.mobile-nav {
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6f6f6;
+  padding: 0.5rem 1rem;
+}
+.mobile-nav .exit-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.mobile-nav .exit-container .exit-icon {
+  height: 1rem;
+}/*# sourceMappingURL=MobileNav.css.map */

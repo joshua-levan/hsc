@@ -7,6 +7,11 @@ form {
 form .name, form .email {
   display: flex;
 }
+@media (max-width: 768px) {
+  form .name, form .email {
+    flex-direction: column;
+  }
+}
 form .name div, form .email div {
   display: flex;
   flex-direction: column;
@@ -20,12 +25,22 @@ form input {
   height: 1rem;
   width: 10rem;
 }
+@media (max-width: 768px) {
+  form input {
+    width: 100%;
+  }
+}
 form .email input {
   width: 13.5rem;
 }
 @media (max-width: 1024px) {
   form .email input {
     width: 12.75rem;
+  }
+}
+@media (max-width: 768px) {
+  form .email input {
+    width: 100%;
   }
 }
 form textarea {
