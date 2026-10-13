@@ -1,10 +1,15 @@
 import { useState, useEffect } from 'react'
 import './Nav.css'
+
 import hscLogo from '../../assets/hscLogo.svg'
+import hamburgerIcon from '../../assets/hamburger.svg'
+
 import Button from '../button/Button'
+import MobileNav from './MobileNav'
 
 const Nav = () => {
   const [navStatus, setNavStatus] = useState<string>('full')
+  const [mobileNav, setMobileNav] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,24 +27,37 @@ const Nav = () => {
   }
 }, [])
 
+  const toggleNav = () => {
+    setMobileNav(prev => !prev)
+  }
+
   return (
-    <nav className={navStatus} aria-label="Main navigation">
-          <div className="top-bar">
-            Home Studio Consultants offer expert guidance at any stage. Check out <a href="#about">WHAT WE'RE ALL ABOUT <span>→</span></a>
+    <>
+    {mobileNav && <MobileNav />}
+      <nav className={navStatus} aria-label="Main navigation">
+            <div className="top-bar">
+              Home Studio Consultants offer expert guidance at any stage. Check out <a href="#about">WHAT WE'RE ALL ABOUT <span>→</span></a>
+            </div>
+            <div className={`navbar ${navStatus}`}>
+              <a href="#top" aria-label="Home Studio Consultants home">
+                <img src={hscLogo} alt="Home Studio Consultants" />
+              </a>
+              <img
+              src={hamburgerIcon}
+              alt=""
+              aria-labelledby='toggle navigation'
+              className="hamburger"
+              onClick={toggleNav}/>
+            <ul>
+                <li><a href="#about">about/ services</a></li>
+                <li><a href="#service-area">service area</a></li>
+                <li><a href="#pricing">pricing</a></li>
+                <li><a href="#contact">let's chat</a></li>
+            </ul>
+            <Button color={'red'} message={'let\'s make my studio'} navStatus={navStatus}/>
           </div>
-          <div className={`navbar ${navStatus}`}>
-            <a href="#top" aria-label="Home Studio Consultants home">
-              <img src={hscLogo} alt="Home Studio Consultants" />
-            </a>
-          <ul>
-              <li><a href="#about">about/ services</a></li>
-              <li><a href="#service-area">service area</a></li>
-              <li><a href="#pricing">pricing</a></li>
-              <li><a href="#contact">let's chat</a></li>
-          </ul>
-          <Button color={'red'} message={'let\'s make my studio'} navStatus={navStatus}/>
-        </div>
-    </nav>
+      </nav>
+    </>
   )
 }
 

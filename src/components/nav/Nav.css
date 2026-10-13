@@ -46,6 +46,21 @@ nav .navbar ul {
   justify-content: space-around;
   width: 50%;
 }
+@media (max-width: 768px) {
+  nav .navbar ul {
+    display: none;
+  }
+}
+nav .navbar .hamburger {
+  height: 1rem;
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  nav .navbar .hamburger {
+    display: inline-block;
+  }
+}
 nav .navbar ul li {
   display: inline-block;
   font-size: 0.35rem;
