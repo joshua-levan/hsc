@@ -2,6 +2,9 @@ nav {
   position: fixed;
   display: flex;
   flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 0;
 }
 nav .top-bar {
@@ -12,6 +15,7 @@ nav .top-bar {
   font-size: 0.35rem;
   color: white;
   padding: 0.25rem;
+  width: 100%;
 }
 nav .top-bar a {
   color: white;
@@ -39,6 +43,25 @@ nav .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 560px) {
+  nav .navbar {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 480px) {
+  nav .navbar {
+    padding: 0 0.75rem;
+  }
+}
+@media (max-width: 430px) {
+  nav .navbar {
+    padding: 0.25rem;
+  }
+  nav .navbar .button-component {
+    display: none;
+  }
 }
 nav .navbar ul {
   display: flex;
@@ -59,6 +82,11 @@ nav .navbar .hamburger {
 @media (max-width: 768px) {
   nav .navbar .hamburger {
     display: inline-block;
+  }
+}
+@media (max-width: 430px) {
+  nav .navbar .hamburger {
+    margin-right: 2rem;
   }
 }
 nav .navbar ul li {

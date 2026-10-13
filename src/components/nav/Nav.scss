@@ -4,6 +4,9 @@ nav {
     position: fixed;
     display: flex;
     flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 0;
         .top-bar {
         background: linear-gradient(to right, $red, $black);
@@ -13,6 +16,7 @@ nav {
         font-size: 0.35rem;
         color: white;
         padding: 0.25rem;
+        width: 100%;
         a{
             color: white;
             font-weight: 600;
@@ -46,6 +50,19 @@ nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        width: 100%;
+        @media (max-width: 560px) {
+        padding: 0 1rem;
+        }
+        @media (max-width: 480px) {
+        padding: 0 0.75rem;
+        }
+        @media (max-width: 430px) {
+        padding: 0.25rem;
+        .button-component {
+            display: none;
+        }
+        }
         ul{
             display: flex;
             align-items: center;
@@ -62,6 +79,9 @@ nav {
             cursor: pointer;
             @media (max-width: 768px){
                 display: inline-block;
+            }
+            @media (max-width: 430px) {
+            margin-right: 2rem;
             }
         }
 
