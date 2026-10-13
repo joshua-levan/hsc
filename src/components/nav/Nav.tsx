@@ -36,7 +36,7 @@ const Nav = () => {
     {mobileNav && <MobileNav toggleNav={toggleNav}/>}
       <nav className={navStatus} aria-label="Main navigation">
             <div className="top-bar">
-              Home Studio Consultants offer expert guidance at any stage. Check out <a href="#about">WHAT WE'RE ALL ABOUT <span>→</span></a>
+              <p>Home Studio Consultants offer expert guidance at any stage. Check out <a href="#about">WHAT WE'RE ALL ABOUT <span>→</span></a></p>
             </div>
             <div className={`navbar ${navStatus}`}>
               <a href="#top" aria-label="Home Studio Consultants home">

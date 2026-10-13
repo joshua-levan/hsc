@@ -13,10 +13,19 @@ nav {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 0.35rem;
-        color: white;
         padding: 0.25rem;
         width: 100%;
+        @media (max-width: 440px) {
+            padding: 0;
+            height: 0.25rem;
+        }
+        p{
+            font-size: 0.35rem;
+            color: white;
+            @media (max-width: 440px) {
+            display: none;
+        }
+        }
         a{
             color: white;
             font-weight: 600;

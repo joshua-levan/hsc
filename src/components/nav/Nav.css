@@ -12,10 +12,23 @@ nav .top-bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.35rem;
-  color: white;
   padding: 0.25rem;
   width: 100%;
+}
+@media (max-width: 440px) {
+  nav .top-bar {
+    padding: 0;
+    height: 0.25rem;
+  }
+}
+nav .top-bar p {
+  font-size: 0.35rem;
+  color: white;
+}
+@media (max-width: 440px) {
+  nav .top-bar p {
+    display: none;
+  }
 }
 nav .top-bar a {
   color: white;

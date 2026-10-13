@@ -16,6 +16,7 @@
 }
 .mobile-nav .exit-container .exit-icon {
   height: 1rem;
+  cursor: pointer;
 }
 .mobile-nav ul {
   margin-top: 1.5rem;
