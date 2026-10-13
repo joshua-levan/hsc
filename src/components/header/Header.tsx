@@ -8,6 +8,7 @@ const Header = () => {
     <header id="top" aria-labelledby="welcome-heading">
         <section>
             <p>See our<a href="#about">LIST OF SERVICES <span>→</span></a></p>
+            <h1>make it<br/>happen</h1>
             <h2>with HOME STUDIO CONSULTANTS</h2>
             <Button color="black" message="unleash the beast" navStatus={""}/>
             <img
@@ -19,7 +20,6 @@ const Header = () => {
             decoding="async"
             />
             <img className="ohio-seal" src={ohioSeal} alt="Home Studio Consultants Ohio Seal" />
-            <h1>make it<br/>happen</h1>
         </section>
     </header>
   )

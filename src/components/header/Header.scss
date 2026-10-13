@@ -14,6 +14,15 @@ header{
         display: flex;
         flex-direction: column;
         align-items:center;
+        @media (max-width: 640px){
+            height: 11rem;
+            }
+        @media (max-width: 480px){
+            height: 10.5rem;
+        }
+        @media (max-width: 540px){
+                height: 10rem;
+            }
         p {
             position: absolute;
             left: 2rem;
@@ -23,9 +32,56 @@ header{
                 color: $red;
             }
         }
+        h1 {
+            position: absolute;
+            height: 60%;
+            width: 100%;
+            left: 0;
+            top: 0.25rem;
+            position: absolute;
+            top: 1rem;
+            left: -0.5rem;
+            transform: rotate(-5deg);
+            font-size: 2.8rem;
+            @media (max-width: 690px){
+                position: static;
+                font-size: 2.25rem;
+            }
+            @media (max-width: 580px){
+                font-size: 2rem;
+                transform: rotate(0deg);
+                margin-top: 0.25rem;
+            }
+            @media (max-width: 540px){
+                position: absolute;
+            }
+            @media (max-width: 440px){
+                font-size: 1.75rem;
+                left: -0.5rem;
+            }
+            @media (max-width: 400px){
+                font-size: 1.5rem;
+                left: -0.25rem;
+            }
+        }
         h2{
             margin-top: 6rem;
-
+            @media (max-width: 690px){
+                margin-top: -1rem;
+            }
+            @media (max-width: 640px){
+                margin-top: 0;
+            }
+            @media (max-width: 580px){
+                margin-top: -1rem;
+                font-size: 0.75rem;
+            }
+            @media (max-width: 540px){
+                margin-top: 5rem;
+            }
+            @media (max-width: 440px){
+                margin-top: 4rem;
+            }
         }
         button{
             margin-top: 1rem;
@@ -38,24 +94,33 @@ header{
             @media (max-width: 1024px) {
                 right: 1.75rem;
             }
+            @media (max-width: 760px){
+                right: -1rem;
+            }
+            @media (max-width: 640px){
+               height: 7rem;
+                top: 1rem;
+                right: 1rem;;
+            }
+            @media (max-width: 580px){
+               height: 10rem;
+                top: -0.5rem;
+                right: -1rem;;
+            }
+            @media (max-width: 480px){
+               height: 7rem;
+                top: 0.25rem;
+                right: -1rem;;
+            }
         }
         img.ohio-seal {
             position: absolute;
             right: -0.5rem;
             top: 3.35rem;
             height: 5rem;
+            @media (max-width: 760px){
+                display: none;
             }
-        h1 {
-            position: absolute;
-            height: 60%;
-            width: 100%;
-            left: 0;
-            top: 0.25rem;
-            position: absolute;
-            top: 1rem;
-            left: -0.5rem;
-            transform: rotate(-5deg);
-            font-size: 2.8rem;
         }
     }
 }

@@ -12,10 +12,10 @@ const App = () => {
     <>
       <Nav />
       <Header />
-      <About />
-      <CTA />
-      <VideoLoop />
-      <Pricing /> {/*// contact form in pricing*/}
+      {/* <About /> */}
+      {/* <CTA /> */}
+      {/* <VideoLoop /> */}
+      {/* <Pricing /> // contact form in pricing */}
       <Footer />
     </>
   )
