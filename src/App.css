@@ -61,6 +61,11 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
+@media (max-width: 1024px) {
+  html {
+    font-size: clamp(1.5rem, 0rem + 3.15vw, 2rem);
+  }
+}
 
 *, *::before, *::after {
   box-sizing: inherit;

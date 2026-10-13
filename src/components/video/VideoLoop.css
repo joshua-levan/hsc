@@ -33,6 +33,11 @@
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 1024px) {
+  .video-container section .service-area-copy .service-area {
+    max-width: 15rem;
+  }
+}
 .video-container section .service-area-copy .service-area .location-icon {
   height: 2rem;
   margin-bottom: 1rem;
@@ -54,6 +59,11 @@
 }
 .video-container section .button-container button {
   margin-top: 3rem;
+}
+@media (max-width: 1440px) {
+  .video-container section .button-container button {
+    margin-right: 2rem;
+  }
 }
 .video-container video {
   position: absolute;

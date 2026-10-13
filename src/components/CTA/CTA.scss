@@ -54,6 +54,9 @@
                 width: 14rem;
                 margin-left: 2rem;
                 margin-top: 2.5rem;
+                @media (max-width: 1024px){
+                    width: 13rem;
+                }
                 h3 {
                     color:white;
                     font-size: 1.25rem;

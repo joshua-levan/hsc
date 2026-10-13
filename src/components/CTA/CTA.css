@@ -52,6 +52,11 @@
   margin-left: 2rem;
   margin-top: 2.5rem;
 }
+@media (max-width: 1024px) {
+  .cta section .cta-container .cta-copy-container {
+    width: 13rem;
+  }
+}
 .cta section .cta-container .cta-copy-container h3 {
   color: white;
   font-size: 1.25rem;

@@ -23,6 +23,11 @@ form input {
 form .email input {
   width: 13.5rem;
 }
+@media (max-width: 1024px) {
+  form .email input {
+    width: 12.75rem;
+  }
+}
 form textarea {
   height: 5rem;
   margin-top: 0.252rem;

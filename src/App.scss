@@ -56,6 +56,18 @@ html {
     font-size: clamp(1rem, -0.25rem + 3.333vw, 2.75rem);
     scroll-behavior: smooth;
     box-sizing: border-box;
+    // Large phones / small devices
+    @media (max-width: 480px) {
+    }
+
+    // Tablets
+    @media (max-width: 768px) {
+    }
+
+    // Small desktops / laptops
+    @media (max-width: 1024px) {
+        font-size: clamp(1.5rem, 0rem + 3.15vw, 2rem);
+    }
 }
 
 *, *::before, *::after {

@@ -35,6 +35,11 @@ header section img.sparky {
   top: -0.65rem;
   right: 2.5rem;
 }
+@media (max-width: 1024px) {
+  header section img.sparky {
+    right: 1.75rem;
+  }
+}
 header section img.ohio-seal {
   position: absolute;
   right: -0.5rem;
