@@ -13,7 +13,7 @@ const App = () => {
       <Nav />
       <Header />
       <About />
-      {/* <CTA /> */}
+      <CTA />
       {/* <VideoLoop /> */}
       {/* <Pricing /> // contact form in pricing */}
       <Footer />

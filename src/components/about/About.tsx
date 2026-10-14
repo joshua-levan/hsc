@@ -58,8 +58,10 @@ const About = () => {
             />
             <img className="diorama" src={diorama} alt="Diorama of an in-home studio illustration" />
             <div className="about-container">
-                <h3>TRAINING & AUDIO SETUP <span>  Home Studio Consultants helps home recording enthusiasts, musicians, podcasters, and audio professionals get more from their recording studio equipment and software. Get expert guidance on audio interfaces, studio monitors, digital audio workstations (DAWs), signal routing, room acoustics, and more.</span></h3>
-                <p>Ready?<a href="#contact">LET'S GET STARTED <span>→</span></a></p>
+                <div className="about-copy-container">
+                    <h3>TRAINING & AUDIO SETUP <span>  Home Studio Consultants helps home recording enthusiasts, musicians, podcasters, and audio professionals get more from their recording studio equipment and software. Get expert guidance on audio interfaces, studio monitors, digital audio workstations (DAWs), signal routing, room acoustics, and more.</span></h3>
+                    <p>Ready?<a href="#contact">LET'S GET STARTED <span>→</span></a></p>
+                </div>
                 <div className="about-cards-container" aria-labelledby="services-heading">
                     <img className="card-grid" src={cardGrid} alt="" />
                     {aboutCards.map(card=>{
