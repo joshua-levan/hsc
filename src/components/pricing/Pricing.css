@@ -20,10 +20,17 @@
 }
 .pricing .pricing-section {
   max-width: 1440px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.5rem;
+}
+@media (max-width: 1024px) {
+  .pricing .pricing-section {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .pricing .pricing-section .remote-card {
   background-color: #FEB19E;
@@ -36,6 +43,11 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
+}
+@media (max-width: 1024px) {
+  .pricing .pricing-section .remote-card {
+    margin-top: 0;
+  }
 }
 .pricing .pricing-section .remote-card img {
   height: 3rem;
@@ -51,6 +63,18 @@
   width: 18rem;
   flex-shrink: 0;
 }
+@media (max-width: 1024px) {
+  .pricing .pricing-section .cards-container {
+    align-self: center;
+  }
+}
+@media (max-width: 512px) {
+  .pricing .pricing-section .cards-container {
+    flex-direction: column;
+    align-items: center;
+    width: 10.5rem;
+  }
+}
 .pricing .pricing-section .cards-container .card {
   width: 8.75rem;
   height: 8.75rem;
@@ -60,6 +84,13 @@
   align-items: center;
   padding: 0.75rem;
   margin-bottom: 0.5rem;
+}
+@media (max-width: 512px) {
+  .pricing .pricing-section .cards-container .card {
+    width: 10.5rem;
+    height: 10.5rem;
+    justify-content: center;
+  }
 }
 .pricing .pricing-section .cards-container .card img {
   height: 2.5rem;
@@ -78,6 +109,12 @@
 .pricing .contact-form {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 668px) {
+  .pricing .contact-form {
+    padding: 0;
+    margin-top: 1rem;
+  }
 }
 .pricing .contact-form .contact-header {
   background-color: #FEB19E;

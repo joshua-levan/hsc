@@ -21,10 +21,15 @@
     }
     .pricing-section {
         max-width: 1440px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 1.5rem;
+        @media (max-width: 1024px) {
+            flex-direction: column;
+            align-items: center;
+        }
 
         .remote-card {
             background-color: $pink;
@@ -37,6 +42,9 @@
             align-items: center;
             justify-content: center;
             padding: 1rem;
+            @media (max-width: 1024px) {
+            margin-top: 0;
+        }
             img {
                 height: 3rem;
                 margin-bottom: 0.25rem;
@@ -51,6 +59,14 @@
         justify-content: space-between;
         width: 18rem;
         flex-shrink: 0;
+        @media (max-width: 1024px) {
+            align-self: center;
+        }
+        @media (max-width: 512px) {
+            flex-direction: column;
+            align-items: center;
+            width: 10.5rem;
+        }
             .card {
                 width: 8.75rem;
                 height: 8.75rem;
@@ -60,6 +76,11 @@
                 align-items: center;
                 padding: 0.75rem;
                 margin-bottom: 0.5rem;
+                @media (max-width: 512px) {
+                    width: 10.5rem;
+                    height: 10.5rem;
+                    justify-content: center;
+                }
                 img {
                     height: 2.5rem;
                     margin-bottom: 0.25rem;
@@ -82,6 +103,10 @@
     .contact-form {
         display: flex;
         flex-direction: column;
+        @media (max-width: 668px) {
+            padding: 0;
+            margin-top: 1rem;
+        }
         .contact-header{
             background-color: $pink;
             padding: 0.5rem 1rem;
