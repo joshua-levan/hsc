@@ -1,16 +1,17 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+
 import './ContactForm.css'
 
 const ContactForm = () => {
-    const form = useRef();
+    const form = useRef<HTMLFormElement>(null);
 
-    const sendEmail = (e) => {
+    const sendEmail = (e: React.SyntheticEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         emailjs
-        .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+        .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current!, {
             publicKey: 'YOUR_PUBLIC_KEY',
         })
         .then(
