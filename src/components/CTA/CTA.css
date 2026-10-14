@@ -5,6 +5,11 @@
   width: 100%;
   position: relative;
 }
+@media (max-width: 495px) {
+  .cta {
+    height: 15rem;
+  }
+}
 .cta h1, .cta h2 {
   z-index: 50;
 }
@@ -32,10 +37,20 @@
   top: 0;
   z-index: 90;
 }
+@media (max-width: 495px) {
+  .cta section h4 {
+    display: none;
+  }
+}
 .cta section h2 {
   position: absolute;
   right: 1rem;
   top: 6.25rem;
+}
+@media (max-width: 495px) {
+  .cta section h2 {
+    top: 2.5rem;
+  }
 }
 .cta section .cta-container {
   margin-top: 5rem;
@@ -44,6 +59,12 @@
   display: flex;
   justify-content: space-between;
   z-index: 35;
+}
+@media (max-width: 495px) {
+  .cta section .cta-container {
+    justify-content: center;
+    padding: 0 2rem;
+  }
 }
 .cta section .cta-container .cta-copy-container {
   display: flex;
@@ -55,6 +76,18 @@
 @media (max-width: 1024px) {
   .cta section .cta-container .cta-copy-container {
     width: 13rem;
+  }
+}
+@media (max-width: 780px) {
+  .cta section .cta-container .cta-copy-container {
+    width: 40%;
+    min-width: 10rem;
+  }
+}
+@media (max-width: 495px) {
+  .cta section .cta-container .cta-copy-container {
+    width: 100%;
+    margin: 0;
   }
 }
 .cta section .cta-container .cta-copy-container h3 {
@@ -71,4 +104,29 @@
   height: 14.5rem;
   margin-top: 4.5rem;
   margin-right: 0.25rem;
+}
+@media (max-width: 780px) {
+  .cta section .cta-container .photos {
+    height: 13rem;
+  }
+}
+@media (max-width: 678px) {
+  .cta section .cta-container .photos {
+    height: 12rem;
+  }
+}
+@media (max-width: 678px) {
+  .cta section .cta-container .photos {
+    height: 10rem;
+  }
+}
+@media (max-width: 550px) {
+  .cta section .cta-container .photos {
+    height: 8rem;
+  }
+}
+@media (max-width: 495px) {
+  .cta section .cta-container .photos {
+    display: none;
+  }
 }/*# sourceMappingURL=CTA.css.map */
