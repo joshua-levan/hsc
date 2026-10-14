@@ -11,12 +11,14 @@ const ContactForm = () => {
         e.preventDefault();
 
         emailjs
-        .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current!, {
-            publicKey: 'YOUR_PUBLIC_KEY',
+        .sendForm('service_z59wwwh', 'template_20d071w', form.current!, {
+            publicKey: 'r82Pf0B6j1N7Buqt_',
         })
         .then(
             () => {
             console.log('SUCCESS!');
+            form.current?.reset();
+            alert('Your message has been sent! We will respond ASAP')
             },
             (error) => {
             console.log('FAILED...', error.text);
