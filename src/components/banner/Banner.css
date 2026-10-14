@@ -1,0 +1,10 @@
+.banner {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+@media (max-width: 495px) {
+  .banner {
+    display: block;
+  }
+}/*# sourceMappingURL=Banner.css.map */

@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/about/About'
+import Banner from './components/banner/Banner'
 import CTA from './components/CTA/CTA'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
@@ -15,7 +16,9 @@ const App = () => {
       <About />
       <CTA />
       <VideoLoop />
-      {/* <Pricing /> // contact form in pricing */}
+      <Banner />
+      <Pricing />
+      {/*^^^contact form in pricing^^^*/}
       <Footer />
     </>
   )
