@@ -10,6 +10,9 @@
     justify-content: center;
     height: 17rem;
     overflow: hidden;
+    @media (max-width: 414px){
+        height: 18rem;
+    }
     .triangle-bottom {
         position: absolute;
         z-index: 24;
@@ -21,8 +24,16 @@
         z-index: 80;
         display: flex;
         justify-content: space-between;
+        @media (max-width: 600px) {
+                justify-content: center;
+            }
         .service-area-copy {
                 width: 18rem;
+                 @media (max-width: 600px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
             .service-area {
                 background-color: $black;
                 border: solid 2px $cool-gray;
@@ -54,10 +65,19 @@
             display: flex;
             align-items: center;
             justify-content: end;
+            @media (max-width: 600px) {
+                display: none;
+            }
             button {
                 margin-top: 3rem;
                 @media (max-width: 1440px){
                     margin-right: 2rem;
+                }
+                @media (max-width: 725px){
+                    margin-right: 1rem;
+                }
+                @media (max-width: 693px){
+                    margin-right: 0;
                 }
             }
         }

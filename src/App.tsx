@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <About />
       <CTA />
-      {/* <VideoLoop /> */}
+      <VideoLoop />
       {/* <Pricing /> // contact form in pricing */}
       <Footer />
     </>
