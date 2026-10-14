@@ -102,9 +102,16 @@
 .pricing .pricing-section .cards-container .big-project h2 {
   display: none;
 }
+.pricing {
+  /*===========BUTTON====================*/
+}
 .pricing .button-section {
   display: flex;
   justify-content: center;
+}
+.pricing {
+  /*===========CONTACT-CONTAINER====================
+  --SEE ContactForm for form*/
 }
 .pricing .contact-form {
   display: flex;
@@ -114,6 +121,7 @@
   .pricing .contact-form {
     padding: 0;
     margin-top: 1rem;
+    margin-bottom: -2rem;
   }
 }
 .pricing .contact-form .contact-header {
