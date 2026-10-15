@@ -83,9 +83,7 @@ const Pricing = () => {
         </section>
         <section className='contact-form' id="contact">
             <div className="contact-header">
-                <h3>Contact us<span> Chat or book an appointment. Call, text, or send a message below → <a className="phone-number" href="tel:6159250495">
-    615.925.0495
-</a></span></h3>
+                <h3>Contact us<span> Chat or book an appointment below →</span></h3>
             </div>
             <ContactForm />
         </section>

@@ -9,7 +9,6 @@ const Footer = () => {
             <div>
                 <p>Home Studio Consultants</p>
                 <p>University Heights, OH</p>
-                <a href="tel:6159250495">615.925.0495</a>
             </div>
             <p>© {new Date().getFullYear()} Home Studio Consultants</p>
         </div>
