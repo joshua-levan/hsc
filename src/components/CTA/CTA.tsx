@@ -14,7 +14,7 @@ const CTA = () => {
             <div className="cta-container">
               <div className="cta-copy-container">
                 <h3>HOME STUDIO CONSULTANTS IS YOUR SOLUTION!</h3>
-                <p className='cta-copy'>Your Gear Is Only Half the Story.
+                <p className='cta-copy'>Your gear is only half the story.
 The rest is knowing how to make it all work together.
 Whether you've got a room full of vintage hardware, a laptop and one good microphone, or an absolutely irresponsible amount of audio equipment, we'll help you turn it into a system you actually enjoy using.
 Less guessing. Less gear shuffling. More recording.</p>
