@@ -68,6 +68,8 @@
 .video-container section .service-area-copy p {
   margin-top: 1rem;
   width: 12rem;
+  font-size: 0.35rem;
+  line-height: 0.475rem;
 }
 .video-container section .button-container {
   display: flex;
