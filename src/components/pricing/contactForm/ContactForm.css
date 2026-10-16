@@ -55,7 +55,10 @@ form textarea:focus {
 
 .submit-container {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+}
+.submit-container p {
+  margin-top: 0.25rem;
 }
 .submit-container .form-submit {
   background-color: #FEB19E;

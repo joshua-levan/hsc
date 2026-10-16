@@ -52,7 +52,10 @@ form {
 
 .submit-container {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    p {
+        margin-top: 0.25rem;
+    }
     .form-submit {
     background-color: $pink;
     margin-top: 0.25rem;

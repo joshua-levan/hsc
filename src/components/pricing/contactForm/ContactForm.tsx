@@ -1,10 +1,11 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 
 import './ContactForm.css'
 
 const ContactForm = () => {
+    const [isSent, setIsSent] = useState(false)
     const form = useRef<HTMLFormElement>(null);
 
     const sendEmail = (e: React.SyntheticEvent<HTMLFormElement>) => {
@@ -18,7 +19,7 @@ const ContactForm = () => {
             () => {
             console.log('SUCCESS!');
             form.current?.reset();
-            alert('Your message has been sent! We will respond ASAP')
+            setIsSent(true)
             },
             (error) => {
             console.log('FAILED...', error.text);
@@ -78,6 +79,7 @@ const ContactForm = () => {
         required
         />
         <div className="submit-container">
+            <p>{isSent ?"**Your message has been sent successfully! We will be in touch shortly" : ''}</p>
             <button className='form-submit' type="submit">SEND</button>
         </div>
     </form>
